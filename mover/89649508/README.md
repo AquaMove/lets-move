@@ -1,22 +1,22 @@
 ## Basic Information
-- Sui Wallet Address: `0x0000xxx`
+- Sui Wallet Address: `0x8870b0a11c4ed7427c3970688ff8079730dd186ac7e9ceaac47441935a6798f5`
 > First-time participants must complete the registration of the wallet address through the first task to have it merged. You should use this address for subsequent tasks. We will also use this address to credit the learning rewards.
-- Github: `your_github_id`
+- Github: `89649508`
 
 ## Personal Introduction
-- Work Experience: `X years`
-- Tech Stack: `Rust` `C++` , etc.
+- Work Experience: `None`
+- Tech Stack: `Solidity` `C/C++` `JavaScript`
 > Important: Please take your personal introduction seriously.
-- Years of experience in web2 development, particularly interested in Move, aiming to use Move as an entry point into blockchain. (This is just an example, please write your own introduction and feel free to add more details.)
-- Contact: telegram `xxx`
+- My name is Tuan and now I'm a senior student at University of Information Technology (UIT). My strong enthusiasm is learning and investing in Blockchain in general and in crypto as an individual. For that reason, I choose Move (SUI) and Solidity (ETH) as an entry point into Blockchain. Previously, I had some experience on  Frontend (ReactJS) and Firebase also. 
+- Contact: telegram `@trananhtuandb1`
 
 ## Tasks
 
 ### 01 hello move
-- [ ] Sui CLI Version: 
-- [ ] Sui Wallet Screenshot: Link to image uploaded to `images` folder.
-- [ ] Package ID:
-- [ ] Package ID's Screenshot from Explorer: Link to image uploaded to `images` folder.
+- [x] Sui CLI Version: 
+- [x] Sui Wallet Screenshot: Link to image uploaded to `images` folder.
+- [x] Package ID:
+- [x] Package ID's Screenshot from Explorer: Link to image uploaded to `images` folder.
 
 ### 02 move coin
 - [ ] `My Coin` Package ID:
