@@ -1,7 +1,7 @@
 ## Basic Information
 - Sui Wallet Address: `0x37af6baad7477fa06a2f29d799fe07066160ca04ac0c31068fd4fb823d74e1ea`
 > First-time participants must complete the registration of the wallet address through the first task to have it merged. You should use this address for subsequent tasks. We will also use this address to credit the learning rewards.
-- Github: `johnt9x`
+- Github: `40466326`
 
 ## Personal Introduction
 - Work Experience: `2 years`
