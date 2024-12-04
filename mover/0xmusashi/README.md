@@ -13,10 +13,10 @@
 ## Tasks
 
 ### 01 hello move
-- [ ] Sui CLI Version: 
-- [ ] Sui Wallet Screenshot: Link to image uploaded to `images` folder.
-- [ ] Package ID:
-- [ ] Package ID's Screenshot from Explorer: Link to image uploaded to `images` folder.
+- [x] Sui CLI Version: 1.38.2-99fcadf4f738
+- [x] Sui Wallet Screenshot: https://github.com/0xmusashi/lets-move/mover/0xmusashi/images/wallet.png
+- [ ] Package ID: 0xd48a3ca99697ea4cc5be1b0b5b5e7a7844e9342fb25a8471f8ef73739bd6b851
+- [ ] Package ID's Screenshot from Explorer: https://github.com/0xmusashi/lets-move/mover/0xmusashi/images/task1-package.png
 
 ### 02 move coin
 - [ ] `My Coin` Package ID:
