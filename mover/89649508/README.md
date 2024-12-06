@@ -14,9 +14,9 @@
 
 ### 01 hello move
 - [x] Sui CLI Version: `sui 1.38.2-99fcadf4f738`
-- [x] Sui Wallet Screenshot: Link to image uploaded to `images` folder.
+- [x] Sui Wallet Screenshot: ![Sui Wallet Screenshot](./images/task1/Sui_Wallet.jpg)
 - [x] Package ID: `0x6a9fbe1f70db373862ff65471f5ad8908af12567cfba5e92f27b8a630c1bc94b`
-- [x] Package ID's Screenshot from Explorer: Link to image uploaded to `images` folder.
+- [x] Package ID's Screenshot from Explorer: ![Package ID's Screeenshot](./images/task1/PackageID.jpg)
 
 ### 02 move coin
 - [ ] `My Coin` Package ID:
