@@ -10,7 +10,7 @@ module faucet_coin::faucet_coin {
 
     public struct FAUCET_COIN has drop {}
 
-    public struct TreasuryCapKeeper has key {
+    public struct TreasuryCapKeeper has key, store {
         id: UID,
         cap: TreasuryCap<FAUCET_COIN>
     }
@@ -22,12 +22,12 @@ module faucet_coin::faucet_coin {
             b"FCC",
             b"Faucet Coin",
             b"The Faucet Coin is a coin that anyone can mint.",
-            option::some(url::new_unsafe_from_bytes(b"https://raw.githubusercontent.com/HongThaiPham/lets-move/refs/heads/main/mover/HongThaiPham/images/package-id.png")), 
+            option::some(url::new_unsafe_from_bytes(b"https://raw.githubusercontent.com/HongThaiPham/lets-move/refs/heads/task2/mover/HongThaiPham/images/faucet-coin.png")), 
             ctx
         );
 
         transfer::public_freeze_object(metadata);
-        transfer::share_object(TreasuryCapKeeper {
+        transfer::public_share_object(TreasuryCapKeeper {
             id: object::new(ctx),
             cap: treasury_cap
         });
