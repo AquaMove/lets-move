@@ -20,7 +20,7 @@ module faucet_coin::faucet_coin {
             otw, 
             6,
             b"FCC",
-            b"Faucet Coin",
+            b"HongThaiPham Faucet Coin",
             b"The Faucet Coin is a coin that anyone can mint.",
             option::some(url::new_unsafe_from_bytes(b"https://raw.githubusercontent.com/HongThaiPham/lets-move/refs/heads/task2/mover/HongThaiPham/images/faucet-coin.png")), 
             ctx

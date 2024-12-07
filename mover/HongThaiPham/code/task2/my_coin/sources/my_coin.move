@@ -14,7 +14,7 @@ module my_coin::my_coin {
             otw, 
             6,
             b"MYC",
-            b"My Coin",
+            b"HongThaiPham Coin",
             b"My Coin is a coin that only specific addresses can mint.",
             option::some(url::new_unsafe_from_bytes(b"https://raw.githubusercontent.com/HongThaiPham/lets-move/refs/heads/task2/mover/HongThaiPham/images/my-coin.jpg")), 
             ctx
