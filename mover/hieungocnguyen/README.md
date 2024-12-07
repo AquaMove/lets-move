@@ -15,9 +15,10 @@
 ### 01 hello move
 - [x] Sui CLI Version: sui 1.38.2-homebrew
 - [x] Sui Wallet Screenshot: Link to image uploaded to `images` folder.
-![wallet](./images/SUI_wallet.png)
+![wallet](./images/task_1/SUI_wallet.png)
 - [x] Package ID: 0x632639d5885c2a276207b9d04a81a0460c3a5cfbfb75a06448874a905f8f2904
 - [x] Package ID's Screenshot from Explorer: Link to image uploaded to `images` folder.
+![package_explorer](./images/task_1/package_hello.png)
 
 ### 02 move coin
 - [ ] `My Coin` Package ID:
