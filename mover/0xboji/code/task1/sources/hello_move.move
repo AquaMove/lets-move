@@ -14,13 +14,13 @@ module task1::hello_move {
     // >>>>>>>>>> End Public Structs <<<<<<<<<<
 
     // >>>>>>>>>> Start INIT Functions <<<<<<<<<<
-    fun init(ctx: &mut TxContext) {
-        let hello_move = Hello {
-            id: object::new(ctx),
-            say: string::utf8(b"Hello AquaMove from 0xboji.sui"),
-        };
-        transfer::transfer(hello_move, tx_context::sender(ctx));
-    }
+  fun init(ctx: &mut TxContext) {
+      let hello_move = Hello {
+          id: object::new(ctx),
+          say: string::utf8(b"Hello AquaMove from 0xboji.sui"),
+      };
+      transfer::share_object(hello_move);
+  }
     // >>>>>>>>>> End INIT Functions <<<<<<<<<<
 
     // >>>>>>>>>> Start Public Functions <<<<<<<<<<
