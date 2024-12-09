@@ -30,12 +30,10 @@
 - [x] `Faucet Coin` address 2 mint hash: `8ASwLVQy11YwVN595ZmkTk6qwgw43eE1gTnWrbzKRBuo`
 
 ### 03 move nft
-- [x] NFT Package ID: `0x7b3392859d2bc4d665265d85a889c38e3157c5439fb4eb75a347e15ad009bbf9`
-- [x] NFT Object ID: `0x6b0d60005f0221acee14ca6716cbe4d32aaedc98989066763fbb4b5ad50a0ae4`
-- [x] Transfer NFT hash: `2XEnjhrrym7hm4qSNt9C3jHoGBVQyx6x3MkN7Y8htSr4`
-- [x] NFT's Screenshot from Explorer:
-
-![NFT Explorer](./images/nft-screenshot.png)
+- [] NFT Package ID: 
+- [] NFT Object ID: 
+- [] Transfer NFT hash:
+- [] NFT's Screenshot from Explorer:
 
 ### 04 move game
 - [ ] Game Package ID:
