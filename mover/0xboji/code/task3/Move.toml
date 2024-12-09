@@ -1,11 +1,10 @@
 [package]
-name = "token_faucet"
+name = "task3"
 version = "0.0.1"
-edition = "2024.beta"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 
 [addresses]
-task2 = "0xac13b641912f864da8268abadf02ec3a20fa107b0ecdb94984a688e57dccdc4c"
+task3 = "0x0"
 
