@@ -2,10 +2,11 @@
 
 [move]
 version = 3
-manifest_digest = "D61316C51DDAB3A1EBBD098EB6BBF1A5ACAF368315CBC00CCAA6E89A455783D4"
-deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
+manifest_digest = "7C266AE0339164F2E667E6AB401F898E4C0F249FBFBB077701984D86EF36E5E7"
+deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
   { id = "Sui", name = "Sui" },
+  { id = "faucet_coin", name = "faucet_coin" },
 ]
 
 [[move.package]]
@@ -19,3 +20,16 @@ source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testn
 dependencies = [
   { id = "MoveStdlib", name = "MoveStdlib" },
 ]
+
+[[move.package]]
+id = "faucet_coin"
+source = { local = "../../task2/faucet_coin" }
+
+dependencies = [
+  { id = "Sui", name = "Sui" },
+]
+
+[move.toolchain-version]
+compiler-version = "1.38.3"
+edition = "2024.beta"
+flavor = "sui"
