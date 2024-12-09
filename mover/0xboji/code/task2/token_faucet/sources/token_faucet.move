@@ -3,7 +3,8 @@ module task2::boji_coin_faucet{
     use sui::tx_context::{TxContext, sender};
     use sui::transfer;
     use sui::coin::{Self, Coin, TreasuryCap, CoinMetadata};
-    use std::option::{none};
+    use std::option::{Self, Option, some, none};
+    use sui::url::{Self, Url};
     use std::ascii;
     use std::string;
     // >>>>>>>>>> End Imports <<<<<<<<<<
@@ -20,7 +21,7 @@ module task2::boji_coin_faucet{
             b"BOJI_COIN_FAUCET", // symbol
             b"Boji Coin Faucet", // name
             b"Boji Coin Faucet", // description
-            none(), // icon url
+            some(url::new_unsafe_from_bytes(b"https://aggregator.walrus-testnet.walrus.space/v1/JSxwDwYWwmZs9AG-UaenzJOBodr0mCwXOI_Ik9XOTXw")), // icon url
             ctx, // ctx
             );
         transfer::public_transfer(treasuryCap, sender(ctx));
