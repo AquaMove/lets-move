@@ -38,10 +38,10 @@
 ![NFT Explorer](./images/nft-screenshot.png)
 
 ### 04 move game
-- [] Game Package ID:
-- [] Deposit Coin Hash:
-- [] Withdraw Coin Hash:
-- [] Play Game Hash:
+- [ ] Game Package ID:
+- [ ] Deposit Coin Hash:
+- [ ] Withdraw Coin Hash:
+- [ ] Play Game Hash:
 
 ### 05 move swap
 - [ ] Swap Package ID:
