@@ -2,7 +2,7 @@
 #[test_only]
 module move_game::move_game_tests;
 // uncomment this line to import the module
-use move_game::onetwothree::{play, take_reward, Game, init_for_testing as init_game, get_game_balance, new_game, EGameIsNotOver};
+use move_game::hongthaipham::{play, take_reward, Game, init_for_testing as init_game, get_game_balance, new_game, EGameIsNotOver};
 use faucet_coin::faucet_coin::{init_for_testing, mint, TreasuryCapKeeper, FAUCET_COIN};
 use sui::test_scenario;
 use sui::test_utils::{assert_eq};

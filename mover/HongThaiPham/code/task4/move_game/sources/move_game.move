@@ -4,11 +4,12 @@ module move_game::move_game;
 */
 
 
-module move_game::onetwothree {
+module move_game::hongthaipham {
     use sui::coin::{Self, Coin};
     use sui::balance::{Self, Balance};
     use sui::random::{Self, new_generator, Random};
     use faucet_coin::faucet_coin::{FAUCET_COIN};
+    use std::string::{Self, String};
     use std::debug;
 
     const EInvalidAmount: u64 = 0;
@@ -26,6 +27,7 @@ module move_game::onetwothree {
         bot: Option<u8>, // the bot's choice
         player_choice: Option<u8>, // the lasted player's choice
         lasted_player: Option<address>, // the lasted player
+        github_id: String,
     }
     
 
@@ -38,6 +40,7 @@ module move_game::onetwothree {
             bot: option::none(),
             player_choice: option::none(),
             lasted_player: option::none(),
+            github_id: string::utf8(b"hongthaipham"),
         };
         transfer::transfer(game, tx_context::sender(ctx));
     }
@@ -62,7 +65,7 @@ module move_game::onetwothree {
     public entry fun take_reward(game: Game, ctx: &mut TxContext) {
         assert!(game_is_over(&game), EGameIsNotOver);
         assert!(option::borrow(&game.lasted_player) == &tx_context::sender(ctx), EUnauthorized);
-        let Game { id, balance, even_win:_,  bot:_, lasted_player:_, player_choice:_} = game;
+        let Game { id, balance, even_win:_,  bot:_, lasted_player:_, player_choice:_, github_id:_} = game;
         let payment = coin::from_balance(balance, ctx);
         transfer::public_transfer(payment, tx_context::sender(ctx));
         object::delete(id);
@@ -102,6 +105,7 @@ module move_game::onetwothree {
             bot: option::none(),
             player_choice: option::none(),
             lasted_player: option::none(),
+            github_id: string::utf8(b"hongthaipham"),
         };
         transfer::transfer(game, tx_context::sender(ctx));
     }
