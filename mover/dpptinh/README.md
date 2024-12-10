@@ -3,12 +3,12 @@
 > First-time participants must complete the registration of the wallet address through the first task to have it merged. You should use this address for subsequent tasks. We will also use this address to credit the learning rewards.
 - Github: `dpptinh`
 
-## Personal Introduction
-- Work Experience: `1 year`
-- Tech Stack: `Python`, `Pytorch`, `Langchain`,...
-> Important: Please take your personal introduction seriously.
-- Years of experience in web2 development, particularly interested in Move, aiming to use Move as an entry point into blockchain. (This is just an example, please write your own introduction and feel free to add more details.)
-- Contact: telegram `xxx`
+## Personal Introduction  
+- **Work Experience:** Over 1 year of experience in AI, particularly in NLP.  
+- **Tech Stack:** Python, PyTorch, Langchain,...  
+- **Interest:** Currently exploring Web3 and blockchain, with a keen interest in using Move as an entry point into the blockchain field.  
+- **Contact:** Telegram `xxx`
+- Contact: telegram `@dpphuctinh`
 
 ## Tasks
 
