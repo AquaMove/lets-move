@@ -1,0 +1,11 @@
+// Để sử dụng lệnh 'sui', bạn cần thêm đường dẫn đến thư mục chứa 'sui.exe' vào biến môi trường PATH.
+// Bạn có thể làm theo các bước sau:
+
+1. Nhấn chuột phải vào "This PC" hoặc "My Computer" và chọn "Properties".
+2. Chọn "Advanced system settings".
+3. Nhấn vào nút "Environment Variables".
+4. Trong phần "System variables", tìm và chọn biến "Path", sau đó nhấn "Edit".
+5. Nhấn "New" và thêm đường dẫn: C:\Users\admin\AppData\Local\Temp\chocolatey\ChocolateyScratch\sui\1.39.0\bin
+6. Nhấn "OK" để lưu lại và đóng tất cả các cửa sổ.
+
+Sau đó, mở lại Command Prompt và thử chạy lại lệnh 'sui --version'. 
