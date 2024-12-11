@@ -2,12 +2,13 @@
 #[test_only]
 module move_game::move_game_tests;
 // uncomment this line to import the module
-use move_game::hongthaipham::{play, take_reward, Game, init_for_testing as init_game, get_game_balance, new_game, EGameIsNotOver};
+use move_game::hongthaipham::{play, take_reward, Game, get_game_balance, new_game, EGameIsNotOver};
 use faucet_coin::faucet_coin::{init_for_testing, mint, TreasuryCapKeeper, FAUCET_COIN};
 use sui::test_scenario;
 use sui::test_utils::{assert_eq};
 use sui::coin;
 use sui::random::{Self, Random};
+use std::debug;
 
 
 
@@ -34,7 +35,7 @@ fun test_move_game() {
 
     test_scenario::next_tx(&mut scenario, alice);
     {
-        init_game(test_scenario::ctx(&mut scenario));
+        // init_game(test_scenario::ctx(&mut scenario));
         init_for_testing(test_scenario::ctx(&mut scenario))
     
     };
@@ -58,48 +59,57 @@ fun test_move_game() {
 
     test_scenario::next_tx(&mut scenario, bob);
     {
-        let game = test_scenario::take_from_sender<Game>(&scenario);
+        let game = test_scenario::take_shared<Game>(&scenario);
         let game_balance = get_game_balance(&game);
         assert_eq(game_balance, 1_000_000_000);
         assert_eq(game.get_game_even_win(), true);
-        scenario.return_to_sender(game);
+        test_scenario::return_shared(game);
     };
 
 
     test_scenario::next_tx(&mut scenario, charlie);
     {
-        let mut game = test_scenario::take_from_address<Game>(&scenario, bob);
+        let mut game = test_scenario::take_shared<Game>(&scenario);
         // get coin object from bob balance
         let mut coin = test_scenario::take_from_sender<coin::Coin<FAUCET_COIN>>(&scenario);
 
         // split coin object to 2 coin object with value 1000000000
         let coin_to_play = coin::split(&mut coin, 1000_000_000, test_scenario::ctx(&mut scenario));
-        let choice: u8 = 2;
+        let choice: u8 = 6;
 
         // let random_state: Random = scenario.take_shared();
         play(&random_state, &mut game, coin_to_play, choice, test_scenario::ctx(&mut scenario));
+        
  
         scenario.return_to_sender(coin);
-        test_scenario::return_to_address(bob, game);
+        test_scenario::return_shared(game);
         // test_scenario::return_shared(random_state);  
     };
 
     scenario.next_epoch(charlie);
     test_scenario::next_tx(&mut scenario, charlie);
     {
-        let game = test_scenario::take_from_address<Game>(&scenario, bob);
+        let game = test_scenario::take_shared<Game>(&scenario);
         let game_balance = get_game_balance(&game);
         assert_eq(game_balance, 2000_000_000);
         assert_eq(game.get_game_bot(), 2);
-        assert_eq(game.get_game_player_choice(), 2);
+        assert_eq(game.get_game_player_choice(), 6);
         assert_eq(game.get_game_lasted_player(), charlie);
-        test_scenario::return_to_address(bob, game);
+        test_scenario::return_shared(game);
     };
+
+    // scenario.next_epoch(charlie);
+    // test_scenario::next_tx(&mut scenario, charlie);
+    // {
+    //     let coin = test_scenario::ids_for_sender<coin::Coin<FAUCET_COIN>>(&scenario);
+    //     debug::print(&coin);
+    // };
 
     scenario.next_epoch(charlie);
     test_scenario::next_tx(&mut scenario, charlie);
     {
-        let game = test_scenario::take_from_address<Game>(&scenario, bob);
+        let game = test_scenario::take_shared<Game>(&scenario);
+        debug::print(&game);
         take_reward(game, test_scenario::ctx(&mut scenario));
     };
 
@@ -140,7 +150,6 @@ fun test_move_game_fail() {
 
     test_scenario::next_tx(&mut scenario, alice);
     {
-        init_game(test_scenario::ctx(&mut scenario));
         init_for_testing(test_scenario::ctx(&mut scenario))
     
     };
@@ -164,17 +173,17 @@ fun test_move_game_fail() {
 
     test_scenario::next_tx(&mut scenario, bob);
     {
-        let game = test_scenario::take_from_sender<Game>(&scenario);
+        let game = test_scenario::take_shared<Game>(&scenario);
         let game_balance = get_game_balance(&game);
         assert_eq(game_balance, 1_000_000_000);
         assert_eq(game.get_game_even_win(), true);
-        scenario.return_to_sender(game);
+        test_scenario::return_shared(game);
     };
 
 
     test_scenario::next_tx(&mut scenario, charlie);
     {
-        let mut game = test_scenario::take_from_address<Game>(&scenario, bob);
+        let mut game = test_scenario::take_shared<Game>(&scenario);
         // get coin object from bob balance
         let mut coin = test_scenario::take_from_sender<coin::Coin<FAUCET_COIN>>(&scenario);
 
@@ -182,30 +191,28 @@ fun test_move_game_fail() {
         let coin_to_play = coin::split(&mut coin, 1000_000_000, test_scenario::ctx(&mut scenario));
         let choice: u8 = 2;
 
-        // let random_state: Random = scenario.take_shared();
         play(&random_state, &mut game, coin_to_play, choice, test_scenario::ctx(&mut scenario));
  
         scenario.return_to_sender(coin);
-        test_scenario::return_to_address(bob, game);
-        // test_scenario::return_shared(random_state);  
+        test_scenario::return_shared(game);
     };
 
     scenario.next_epoch(charlie);
     test_scenario::next_tx(&mut scenario, charlie);
     {
-        let game = test_scenario::take_from_address<Game>(&scenario, bob);
+        let game = test_scenario::take_shared<Game>(&scenario);
         let game_balance = get_game_balance(&game);
         assert_eq(game_balance, 2000_000_000);
         assert_eq(game.get_game_bot(), 5);
         assert_eq(game.get_game_player_choice(), 2);
         assert_eq(game.get_game_lasted_player(), charlie);
-        test_scenario::return_to_address(bob, game);
+        test_scenario::return_shared(game);
     };
 
     scenario.next_epoch(charlie);
     test_scenario::next_tx(&mut scenario, charlie);
     {
-        let game = test_scenario::take_from_address<Game>(&scenario, bob);
+        let game = test_scenario::take_shared<Game>(&scenario);
         take_reward(game, test_scenario::ctx(&mut scenario));
     };
 
