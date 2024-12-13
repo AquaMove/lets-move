@@ -20,10 +20,10 @@
 
 ### 02 move coin
 - [ ] `My Coin` Package ID:
-- [ ] `Faucet Coin` Package ID:
+- [x] `Faucet Coin` Package ID: 0x59b194e7162e2f1206b81639dbbd2f8e35f278f78714ff854a6e50f37ac5fabf
 - [ ] Transfer `My Coin` hash:
-- [ ] `Faucet Coin` address 1 mint hash:
-- [ ] `Faucet Coin` address 2 mint hash:
+- [x] `Faucet Coin` address 1 mint hash: jKLcKMZkVJzctQc258sP4m1tEpsx4GKMGHWWuXfPePs
+- [x] `Faucet Coin` address 2 mint hash: 8cWGJvWEbhzDCyUFk4R9JbcBwFE525WtD6hS9wLK3n8d
 
 ### 03 move nft
 - [ ] NFT Package ID:
