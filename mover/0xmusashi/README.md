@@ -19,9 +19,9 @@
 - [x] Package ID's Screenshot from Explorer: https://github.com/0xmusashi/lets-move/blob/main/mover/0xmusashi/images/task1_package.png
 
 ### 02 move coin
-- [ ] `My Coin` Package ID:
+- [x] `My Coin` Package ID: 0x562540c1df084a7b4396a852fbd5828962382ac3dc07eb4216a92b22ead8b8a0
 - [x] `Faucet Coin` Package ID: 0x59b194e7162e2f1206b81639dbbd2f8e35f278f78714ff854a6e50f37ac5fabf
-- [ ] Transfer `My Coin` hash:
+- [x] Transfer `My Coin` hash: BPyFZSFn1EMj3RcfKR9t2gmPkL31aQPVHnnj8gAbUmdd
 - [x] `Faucet Coin` address 1 mint hash: jKLcKMZkVJzctQc258sP4m1tEpsx4GKMGHWWuXfPePs
 - [x] `Faucet Coin` address 2 mint hash: 8cWGJvWEbhzDCyUFk4R9JbcBwFE525WtD6hS9wLK3n8d
 
