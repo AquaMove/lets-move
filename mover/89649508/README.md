@@ -19,11 +19,11 @@
 - [x] Package ID's Screenshot from Explorer: ![Package ID's Screeenshot](./images/task1/PackageID.jpg)
 
 ### 02 move coin
-- [ ] `My Coin` Package ID:
-- [ ] `Faucet Coin` Package ID:
-- [ ] Transfer `My Coin` hash:
-- [ ] `Faucet Coin` address 1 mint hash:
-- [ ] `Faucet Coin` address 2 mint hash:
+- [x] `My Coin` Package ID: `0x79133a49fa59ffe5f2d858cb482593538c59b0fc92ead0af032fa75b7edc0aef` 
+- [x] `Faucet Coin` Package ID: `0x90731b95f27c2dd243db8d903c7a941045d1f18b8f3799eb6728f48b0acde131`
+- [x] Transfer `My Coin` hash: `4AqRstk7qQmDH1vBhy5f7sJU89TDQxwrbwBaNMYY7guR`
+- [x] `Faucet Coin` address 1 mint hash: `APf2R68Te2Xn5QfoVXnryJk4bn6CVzAKS7Q5Hkrjts6W`
+- [x] `Faucet Coin` address 2 mint hash: `2wrabMQ6k1wVJoRdwzFdMGzEZXXBwEEjgWYgrckTURVL`
 
 ### 03 move nft
 - [ ] NFT Package ID:
