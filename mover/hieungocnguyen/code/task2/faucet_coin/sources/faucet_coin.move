@@ -1,0 +1,35 @@
+module hieungocnguyen_faucet_coin::hieungocnguyen_faucet {
+
+    use sui::coin::{Self, TreasuryCap};
+    use sui::url::{ new_unsafe };
+
+    public struct HIEUNGOCNGUYEN_FAUCET has drop {}
+
+    fun init(
+        witness: HIEUNGOCNGUYEN_FAUCET,
+        ctx: &mut TxContext
+    ) {
+        let url_obj = new_unsafe(std::ascii::string(b"https://github.com/hieungocnguyen/lets-move/blob/task-2/mover/hieungocnguyen/images/task_2/token_.png?raw=true"));
+        let (treasury, metadata) = coin::create_currency(
+            witness,
+            6,
+            b"HIEUNGOCNGUYEN_FAUCET",
+            b"hieungocnguyen Faucet Coin",
+            b"Task 2 Faucet Coin",
+            option::some(url_obj),
+            ctx
+        );
+        transfer::public_freeze_object(metadata);
+        transfer::public_share_object(treasury)
+    }
+
+    public fun mint(
+        treasury_cap: &mut TreasuryCap<HIEUNGOCNGUYEN_FAUCET>,
+        amount: u64,
+        recipient: address,
+        ctx: &mut TxContext,
+    ) {
+        let coin = coin::mint(treasury_cap, amount, ctx);
+        transfer::public_transfer(coin, recipient)
+    }
+}
