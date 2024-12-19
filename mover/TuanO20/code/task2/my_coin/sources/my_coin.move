@@ -8,11 +8,11 @@ public struct MY_COIN has drop {}
 fun init(witness: MY_COIN, ctx: &mut TxContext) {
 		let (treasury, metadata) = coin::create_currency(
 				witness,
-				3,
-				b"TAT2",
-				b"TAT AI Memecoin",
+				3, 
+				b"TuanO20",
+				b"TuanO20 coin",
 				b"This coin is created in Sui Hackcamp 2024 by Tran Anh Tuan",
-				option::some(url::new_unsafe_from_bytes(b"https://tokeninsight.com/cdn-cgi/image/width=780,height=520,format=webp,quality=100,fit=cover/https://s2.tokeninsight.com/static/news/cover/img/sd97v6a9.jpeg")),
+				option::some(url::new_unsafe_from_bytes(b"https://pbs.twimg.com/profile_images/1852729160579354624/wKKkFU5A_400x400.jpg")),
 				ctx,
 		);
 		transfer::public_freeze_object(metadata);

@@ -9,10 +9,10 @@ fun init(witness: FAUCET_COIN, ctx: &mut TxContext) {
 		let (treasury, metadata) = coin::create_currency(
 				witness,
 				4,
-				b"TAT_FaucetCoin",
-				b"TAT Meme Faucet",
+				b"TuanO20 Faucet",
+				b"TuanO20 Faucet coin",
 				b"This coin is created in Sui Hackcamp 2024 by Tran Anh Tuan",
-				option::some(url::new_unsafe_from_bytes(b"https://cdn3d.iconscout.com/3d/premium/thumb/coin-faucet-3d-icon-download-in-png-blend-fbx-gltf-file-formats--bitcoin-logo-flow-cryptocurrency-vol-1-pack-science-technology-icons-5376680.png")),
+				option::some(url::new_unsafe_from_bytes(b"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuS8uLzu8811CR9e1QlaQ6IgPv2x234fqG4A&s")),
 				ctx,
 		);
 		transfer::public_freeze_object(metadata);

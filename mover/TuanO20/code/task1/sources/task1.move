@@ -13,12 +13,12 @@ module task1::hello_world {
     public entry fun hello_world(ctx: &mut TxContext) {
         let object = HelloWorldObject {
             id: object::new(ctx),
-            text: string::utf8(b"Hello 89649508")
+            text: string::utf8(b"Hello TuanO20")
         };
         transfer::public_transfer(object, tx_context::sender(ctx));
     }
 
-    public fun get_text(hello: &HelloWorldObject) : String {
+    public entry fun get_text(hello: &HelloWorldObject) : String {
         hello.text
     }
 
