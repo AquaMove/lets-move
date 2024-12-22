@@ -35,3 +35,5 @@ my_coin = "0x0"
 # and `--dev` modes.
 # alice = "0xB0B"
 
+# pckID = 0x1383f54d2831a2f8b902bcb1a4de4e6371eaab889301e732b7000382ed83f03c
+# treasuryCapID = 0x6ff5299b495375ce14efa106b7fd4e25dd9fd4fb227d4a7f7eedb690efc0d36e
