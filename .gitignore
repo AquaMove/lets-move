@@ -26,3 +26,6 @@ yarn-error.log*
 sui.log.*
 .history
 *.Identifier
+
+*/build
+*.Move.lock
