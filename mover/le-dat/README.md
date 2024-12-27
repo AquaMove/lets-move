@@ -19,14 +19,14 @@
 - [x] Package ID's Screenshot from Explorer: ![sui wallet](./images/package_explore.png)
 
 ### 02 move coin
-- [ ] `My Coin` Package ID:
-- [ ] `Faucet Coin` Package ID:
-- [ ] Transfer `My Coin` hash:
-- [ ] `Faucet Coin` address 1 mint hash:
-- [ ] `Faucet Coin` address 2 mint hash:
+- [x] `My Coin` Package ID: `0x1d5ead28ba3db8bc6bf736b42e0d538d8401209dec13aa9a478d14c49632e3fe`
+- [x] `Faucet Coin` Package ID: `0xef9b56ef90548d3edcf339b8b4f7a703fc8411fca7d5ff849cf421f167242e12`
+- [x] Transfer `My Coin` hash: `8XpsFduLeKrVhU4pLxKvs9Dhzw1URzPfPSYATXaVTQUu`
+- [x] `Faucet Coin` address 1 mint hash: `EuQLvLDMwwwTj7vniDcFwozW3NkBaN9LUco1JfdDYAz3`
+- [x] `Faucet Coin` address 2 mint hash: `8j1ZeX3PG6SVg2RB58i68WMWv8H5NxA7HBDxn1BuE845`
 
 ### 03 move nft
-- [ ] NFT Package ID:
+- [ ] NFT Package ID: ``
 - [ ] NFT Object ID:
 - [ ] Transfer NFT hash:
 - [ ] NFT's Screenshot from Explorer: Link to image uploaded to `images` folder.
