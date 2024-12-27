@@ -22,18 +22,16 @@
 
 ### 02 move coin
 
-- [ ] `My Coin` Package ID:
-- [ ] `Faucet Coin` Package ID:
-- [ ] Transfer `My Coin` hash:
-- [ ] `Faucet Coin` address 1 mint hash:
-- [ ] `Faucet Coin` address 2 mint hash:
+- [x] `shogun Coin` Package ID: 0x0b70c9484f12c16ac62b5e41f5f0195f38f315b77c571f386e8ccf77240e2f46
+- [x] `Faucet Coin` Package ID: 0x3a74c38bcb7ee53a1769575d768d0ca455023702320204cce11d4d747eeb2819
+- [x] Transfer `shogun Coin` to the address `HwhsH5JpBP84b2bcoHy43gWaPLhftJn2cZmE7vCcL5xy` with hash: HwhsH5JpBP84b2bcoHy43gWaPLhftJn2cZmE7vCcL5xy
 
 ### 03 move nft
 
-- [ ] NFT Package ID:
-- [ ] NFT Object ID:
-- [ ] Transfer NFT hash:
-- [ ] NFT's Screenshot from Explorer: Link to image uploaded to `images` folder.
+- [x] NFT Package ID: 0x847f16ea908f4034b3455cafc8da6443fb91bd59a59deca558b6ed39306257a8
+- [x] NFT Object ID: 0x0ed1075d76ce86b4addf2d85c16d46a876050a4bca073013fe02cfe489b7e2c9
+- [x] Transfer NFT hash: FcxsEkim1HbQVgiqr7eNxSDTJCkQHTriAsRWs6VB6GbT
+- [x] NFT's Screenshot from Explorer: ![](images/wolf_nft.png)
 
 ### 04 move game
 
