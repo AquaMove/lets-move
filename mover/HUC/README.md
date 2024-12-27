@@ -22,11 +22,11 @@
 - [x] Package ID's images/task1_Sui_Wallet.png
 
 ### 02 move coin
-- [ ] `My Coin` Package ID:
-- [ ] `Faucet Coin` Package ID:
-- [ ] Transfer `My Coin` hash:
-- [ ] `Faucet Coin` address 1 mint hash:
-- [ ] `Faucet Coin` address 2 mint hash:
+- [x] `My Coin` Package ID: 0xfb6ad20ec0d826daceda2de4eaec12c00101e22f2462184ac0387f4f4ef11726 
+- [x] `Faucet Coin` Package ID: 0x5bf20a39f4583234440803e8b04e7755744220d6d4b3c2841ced80f402b54bdb
+- [x] Transfer `My Coin` hash: 0x5bf20a39f4583234440803e8b04e7755744220d6d4b3c2841ced80f402b54bdb
+- [x] `Faucet Coin` address 1 mint hash: 0x0d2078cc70817b20a9bb11824635ac2b46ae86d1192dff9f2a23aad20e9cdab4
+- [x] `Faucet Coin` address 2 mint hash: 0xf843f93556205b046d35da053eef3b62da1874b30d656cd10720c11ed9c92d9e
 
 ### 03 move nft
 - [ ] NFT Package ID:
