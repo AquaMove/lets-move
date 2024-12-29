@@ -29,6 +29,6 @@ flavor = "sui"
 
 [env.testnet]
 chain-id = "4c78adac"
-original-published-id = "0xfa5097148a75130e02768c7c31471884f08cfa5dfa9b3c0a994f9991e75524b9"
-latest-published-id = "0xfa5097148a75130e02768c7c31471884f08cfa5dfa9b3c0a994f9991e75524b9"
+original-published-id = "0xbb6414aea77149258beb7b490b9bdc74f2827e14304a19a726da8cc8bb3c5f25"
+latest-published-id = "0xbb6414aea77149258beb7b490b9bdc74f2827e14304a19a726da8cc8bb3c5f25"
 published-version = "1"
