@@ -45,7 +45,7 @@ Example result:
 cd ~/mover-nhoc20170861/mover/nhoc20170861/code/task1
 sui move new hello_move
 ```
-- The structure of the `move` package is as follows:
+- The structure of the `hello_move` package is as follows:
 ```sh
 .
 ├── Move.toml
@@ -60,7 +60,7 @@ sui move new hello_move
 ```sh
 cd mover/nhoc20170861/code/task1/hello_move 
 # build this package
-sui move new hello_move
+sui move build
 ```
 
 Output:

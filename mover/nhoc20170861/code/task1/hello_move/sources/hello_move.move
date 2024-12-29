@@ -26,6 +26,7 @@ public entry fun hello_move(ctx: &mut TxContext) {
     transfer::public_transfer(object, tx_context::sender(ctx));
 }
 
+#[test_only]
 public fun get_text(hello: &Hello_nhoc20170861): String {
     hello.text
 }
