@@ -14,20 +14,19 @@ module token::token {
             8, 
             b"PHUCLAM", 
             b"PhucLam Coin", 
-            b"This is PhucLam's test coin on Sui", 
-            some(url::new_unsafe_from_bytes(b"https://aggregator.walrus-testnet.walrus.space/v1/JSxwDwYWwmZs9AG-UaenzJOBodr0mCwXOI_Ik9XOTXw")), 
+            b"This is PhucLam's test coin on Sui",
+            option::none(),
             ctx
         );
         transfer::public_freeze_object(metadata);
         transfer::public_transfer(treasury, sender(ctx));
     }
 
-    public entry fun mint(
+    public fun mint(
         treasury: &mut TreasuryCap<TOKEN>,
-        amount: u64,
-        recipient: address,
         ctx: &mut TxContext
     ) {
-        coin::mint_and_transfer(treasury, amount, recipient, ctx);
+        let mint_coin = coin::mint(treasury, 1000000000000000000, ctx);
+        transfer::public_transfer(mint_coin, sender(ctx));
     }
 }

@@ -19,11 +19,11 @@
 - [x] Package ID's Screenshot from Explorer: Link to image uploaded to `images` folder [link](./images/task1_packageId.png)
 
 ### 02 move coin
-- [x] `My Coin` Package ID: 0x64998c1b84000c173f1ed35b806b814555a3850f5643d9df317c0b9c3446bd31
-- [x] `Faucet Coin` Package ID:0xa208afbc4d178ebc1b362599cf61a7e24bef9ab66bb74fac864202d9a8c04901
-- [x] Transfer `My Coin` hash: 3ns9Kj1LVYatRHvy35t8ssoCHcpGqmmAUj3ALeNGv6Kh
-- [x] `Faucet Coin` address 1 mint hash: 3ns9Kj1LVYatRHvy35t8ssoCHcpGqmmAUj3ALeNGv6Kh
-- [x] `Faucet Coin` address 2 mint hash: AMhNPxhL1MRHqcNqGQ9wANwQTzgq7eDFzCzG3mBs1eZo
+- [x] `My Coin` Package ID: 0x6494ddac93e81801903de414722b3641efa61dc83859603e67e6d2bfa833e8e4
+- [x] `Faucet Coin` Package ID:0xbb6414aea77149258beb7b490b9bdc74f2827e14304a19a726da8cc8bb3c5f25
+- [x] Transfer `My Coin` hash: CRD7KUBMLXWCTZ3LcAHgLXCCAs1FBCUbfSphpeDDS54z
+- [x] `Faucet Coin` address 1 mint hash: 0xbb6414aea77149258beb7b490b9bdc74f2827e14304a19a726da8cc8bb3c5f25
+- [x] `Faucet Coin` address 2 mint hash: 0xbb6414aea77149258beb7b490b9bdc74f2827e14304a19a726da8cc8bb3c5f25
 
 ### 03 move nft
 - [ ] NFT Package ID:
