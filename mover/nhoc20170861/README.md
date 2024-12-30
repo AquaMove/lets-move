@@ -35,10 +35,10 @@
 
 
 ### 03 move nft
-- [ ] NFT Package ID:
-- [ ] NFT Object ID:
-- [ ] Transfer NFT hash:
-- [ ] NFT's Screenshot from Explorer: Link to image uploaded to `images` folder.
+- [X] NFT Package ID: 0xd8378fd8cdbfb06a603e648d6281016634816f38dd7bd8d673b48b67637e8dd0
+- [X] NFT Object ID: 0x0fd20b393f98c91f60c1d597aa51ed617d9c81478d21f135b1dd629c82eec279
+- [X] Transfer NFT hash: Cw4k2hmVFA3HMJMv9ycs6GxVdRHSd3XCwo2JFUVHtv5b
+- [X] NFT's Screenshot from Explorer: ![nft](images/nft.png)
 
 ### 04 move game
 - [ ] Game Package ID:
