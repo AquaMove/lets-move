@@ -112,7 +112,7 @@ Output: ObjectID for the shared coin
   
   * Receipt address(1) :  
 ```sh
-sui client call --package 0x81526d8512cd7e19610653ab8c3677da5dc6920fa4a168229d99d9f0cfddb658 --module faucet_coin --function mint_token --args 0x4cff8dda6e54dfac06dde2f4d340c39f91570c15bf369429f1694ce20b0c79db 10000 0x06944b1770e35c797fb2d488b066bef5c5c16b77a4ebfd900a9053e18b6e56a5
+sui client call --package 0x81526d8512cd7e19610653ab8c3677da5dc6920fa4a168229d99d9f0cfddb658 --module faucet_coin --function mint_token --args 0x4cff8dda6e54dfac06dde2f4d340c39f91570c15bf369429f1694ce20b0c79db 10000 0xc02827b4a88c7244dc24993290cab3a6b7c7f37c845751505d06e5988289423a
 ```
 
   * Receipt address(2) :  
