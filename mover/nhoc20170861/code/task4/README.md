@@ -58,13 +58,14 @@ export adminID=0x7ea50a7544be2b7527ae138e1cd341eb2f6b968f4b2efa370de16c9f79e0f33
 export treasury=0x4cff8dda6e54dfac06dde2f4d340c39f91570c15bf369429f1694ce20b0c79db
 export recipient=0xe5209f6d7c0ff44257cb20051438748c96826e6b2acf4f0b0fa7280923e96c9b
 export faucet_coinID=0x81526d8512cd7e19610653ab8c3677da5dc6920fa4a168229d99d9f0cfddb658
-export faucet_ammount=1000000
+export faucet_ammount=2000000000
+
 # call function
 sui client call --package $faucet_coinID --module faucet_coin --function mint_token --args $treasury $faucet_ammount $recipient
 
 # Then export faucet_coint after creating
 export faucet_coin1=0xb70c9d34967ce4413c8efd4ff45eaafeeb23986c59d17f2e6bbfc0343fb4aa7f
-export faucet_coin2=0x019d9a12fca8372c337f5b778c1fe0cc41d90eacf62601b788289d99aa4596da
+export faucet_coin2=0xe601148077d94ae669384c98a11491dee6907f2fb7d1ddf720226ce8c1d17cd8
 ```
 
 > *Test deposit*
@@ -116,7 +117,7 @@ sui client call --package $packageID --module move_game --function withdraw --ar
 > *Test play function*
 
 ```sh
-export random=0x1
+export random=0x8
 export guess=true
-sui client call --package $packageID --module move_game --function play --args $gameID $random $guess $faucet_coin2 --gas-budget 100000000
+sui client call --package $packageID --module move_game --function play --args $gameID $random $guess $faucet_coin2 --gas-budget 1000000000
 ```

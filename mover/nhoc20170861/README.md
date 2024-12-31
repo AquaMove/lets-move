@@ -44,7 +44,7 @@
 - [X] Game Package ID: 0x5c3367947d6322916b38f007c0e60bc1f8da02a318cfa9f7d125f3bc23f2f77b
 - [X] Deposit Coin Hash: 8XUcNq2hZxm2p1t4dvcLQ9QU5cbkrGNJoCYE9sogJGF8
 - [X] Withdraw Coin Hash: FVzhoUXqnPVV5oFXTxdxrtM1uFoeUbG42LCLYojaRhTV
-- [X] Play Game Hash:
+- [X] Play Game Hash: AsbUQCEuncTesq5eNhPh7PdWZ2kHQqVerLSm43UkK78a
 
 ### 05 move swap
 - [ ] Swap Package ID:
