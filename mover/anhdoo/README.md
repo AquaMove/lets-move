@@ -1,5 +1,5 @@
 ## Basic Information
-- Sui Wallet Address: `0xd6873207921e49774e48e02d37b56502ddd423e2783a2c6a549b175cdb10f446`
+- Sui Wallet Address: `0x39bfb55faf883dc9545ab947a4e9459d2287e657fe7aa69589add42c5ae2573d`
 > First-time participants must complete the registration of the wallet address through the first task to have it merged. You should use this address for subsequent tasks. We will also use this address to credit the learning rewards.
 - Github: `TuanAnhDoHoang`
 
@@ -32,15 +32,15 @@
 - [x] NFT's Screenshot from Explorer: ![](images/nft_screenshot.png)
 
 ### 04 move game
-- [ ] Game Package ID:
-- [ ] Deposit Coin Hash:
-- [ ] Withdraw Coin Hash:
-- [ ] Play Game Hash:
+- [x] Game Package ID: 0x7d8169eddfe3eacb9e2754261f6c36036f7946a0aab3c9e3cbecf63cfa5a4380
+- [x] Deposit Coin Hash: 4AqwZ5Xpok4tpb2KsuMPe54BzJNUj6S6bx7CiepRLTM8
+- [x] Withdraw Coin Hash: ATHYeoHdPa2FhWrqsE3b6JrfTvuBBrTpUWbni3KtHQiz
+- [x] Play Game Hash: ATHYeoHdPa2FhWrqsE3b6JrfTvuBBrTpUWbni3KtHQiz 
 
 ### 05 move swap
-- [ ] Swap Package ID:
-- [ ] Call Swap Coin A -> Coin B hash:
-- [ ] Call Swap Coin B -> Coin A hash:
+- [x] Swap Package ID: 0x261fab21fc1da3e5db16b18f8adffb8f50cd5cf9272f71ef9b9f39dac17b3bee
+- [x] Call Swap Coin A -> Coin B hash: D2mTsMKdP3uDmT9mYD9RGve9yrWLQj9yGhKfKUCHcAQM
+- [x] Call Swap Coin B -> Coin A hash: AX6TmM162aTpVWdWat2FwkHoWYRnwgjdDz3qkuoCZz6h
 
 ### 06 dapp-kit SDK PTB
 - [ ] Save Hash:
