@@ -7,7 +7,7 @@
 - Work Experience: `3 months`
 - Tech Stack: `Typescript`, `C++`, `NextJs`, `Nestjs`, `SQL` , etc.
 > Important: Please take your personal introduction seriously.
-- Years of experience in web2 development, particularly interested in Move, aiming to use Move as an entry point into blockchain. (This is just an example, please write your own introduction and feel free to add more details.)
+- I am a third-year university student and a passionate web developer exploring blockchain technology
 - Contact: telegram `thaittv`
 
 ## Tasks
@@ -38,11 +38,24 @@
 - [x] Play Game Hash: bMfrZV1T1ixjpVaBYcqy2yJjAq9ooFjTptSBT2y6yez
 <!-- MY COIN ID: 0x074fb28557d6594386d1d622437a92b107e28f7c82bd15a0221cc7eb8d02c19b -->
 <!-- SWAPPOOL ID: 0x69cb9c8bf136a0da2d99f433be23038db622e235ddaf79d02a7f2b9b7e03b5d6 -->
-
 ### 05 move swap
 - [X] Swap Package ID: 0x348fb1f4aaa09d1625e9f24d7bb6388f0188bfdf4d872bcaa175a57d1b371dae
 - [x] Call Swap Coin A -> Coin B hash: B2Mw8dnRXaLZUYZmyE1aPmhEidyGQfYoqSSJGrxKHhMj
 - [x] Call Swap Coin B -> Coin A hash: 8uzarcp6gX4nEdgEnD4p79ZENBuaTKfmXPp2x15j8YhZ
 
+<!-- Swap Package ID 2: 0xcb4c9eb35b2d8cbdf9758c1ca4e384e4687aa735e078c36075caed67914c255e -->
+<!-- Swap Pool ID 2: 0xd7170b6d89f88b242fb6250885000d2a2ed3bbd0cecba086c00d3067369c5617 -->
+
+<!-- Swap Dapp -->
+<!-- SUI ADDRESS: 0x8dde68875ccee39f3dbcc21ad41be38d94e8ec97aa18dc4ce36d73cf3f7c601e -->
+<!-- MY_COIN_PACKAGE:  0x13f296edf098e6c3ff6af75457ef39c49e615e4a5f0f1fce6ac1eaafb79b2651 -->
+<!-- MY_COIN: 0x2dafc06a095b00c47a082f475b4190a4b10f5b3a9b6ff33b319276b0220367d3 -->
+<!-- FAUCET_COIN_PACKAGE: 0x252994322c4d34a6110abb7004d532445ee0e1845743ab50c20cb3968f7d54ec -->
+<!-- FAUCET_COIN: 0x2b6b4b5a4773f12edaf5b2b41ac3f68d943a70774e593854031b2ef771436a1b -->
+<!-- Swap-Package: 0x323d04bd0243d522c822b529c6ff39104c6f60136d491ca48c59a8b2858c7740-->
+<!-- Swap-Pool:  0x85e210e5a4529394a22b3736c7518cda8a5c75aedf34f91e661d1ada102af7b0-->
+<!-- Swap_ADMIN: 0x9d865522d142304eec5def4bb4b7bc6846a9d40a9c7607fa5aa07f52678f0706 -->
+![](images/Pool.png)
+![](images/Swap.png.png)
 ### 06 dapp-kit SDK PTB
-- [ ] Save Hash:
+- [x] Save Hash: DLLqMtbQjyKYk9F5encriDp97t9739L4shK6JBKfGcQi

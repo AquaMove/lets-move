@@ -11,6 +11,8 @@ module vanthaita::move_swap {
     const E_INVALID_SWAP: u64 = 0;
     const E_INSUFFICIENT_BALANCE: u64 = 1;
     const E_ZERO_LP_TOKEN: u64 = 2;
+    const E_NOT_ADMIN: u64 = 3;
+
 
     public struct SwapPool<phantom CoinA, phantom CoinB> has key {
         id: UID,
@@ -20,11 +22,16 @@ module vanthaita::move_swap {
     }
 
     public struct SwapPoolLpToken<phantom CoinA, phantom CoinB> has key {
-     id: UID,
-     amount: u64,
+        id: UID,
+        amount: u64,
+    }
+
+    public struct Admin has key{
+        id: UID,
     }
 
     public entry fun create_pool(
+        _: &Admin,
         coin_a: Coin<FAUCET_COIN>,
         coin_b: Coin<MY_COIN>,
         ctx: &mut TxContext,
@@ -151,5 +158,12 @@ module vanthaita::move_swap {
         object::delete(id);
     }
 
-    fun init(_ctx: &mut TxContext) {}
+    fun init(ctx: &mut TxContext) {
+        transfer::transfer(
+            Admin {
+                id: object::new(ctx)
+            }
+            ,ctx.sender()
+        )
+    }
 }
