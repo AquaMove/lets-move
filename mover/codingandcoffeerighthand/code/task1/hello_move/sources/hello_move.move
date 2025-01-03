@@ -1,17 +1,16 @@
-// hello_move.move
-module hello_move::hello {
-  use std::string::String;
+module hello_move::hello_move;
 
-  public struct HelloMoveObject has key {
+use std::string::String;
+
+public struct Helle_codingandcoffeerighthand has key {
     id: UID,
-    message: String,
-  }
-  
-  public entry fun hello(ctx: &mut TxContext) {
-    let hello_move = HelloMoveObject {
-      id: object::new(ctx),
-      message: b"hello codingandcoffeerighthand".to_string()
+    name: String,
+}
+
+public entry fun say_hello_codingandcoffeerighthand(ctx: &mut TxContext) {
+    let hello = Helle_codingandcoffeerighthand {
+        id: object::new(ctx),
+        name: b"Hello codingandcoffeerighthand".to_string(),
     };
-    transfer::transfer(hello_move, tx_context::sender(ctx))
-  }
+    transfer::transfer(hello, ctx.sender())
 }

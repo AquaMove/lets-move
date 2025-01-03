@@ -13,12 +13,11 @@
 ## Tasks
 
 ### 01 hello move
-- [x] Sui CLI Version: sui 1.38.3-44dc210152dd
+- [x] Sui CLI Version: `sui 1.39.3-5d4350d66d2b`
 - [x] Sui Wallet Screenshot:  
-![](images/sui_wallet.png)
-- [x] Package ID: 0x3acb045590a2fff1c79c9eaa4aa0fbba10bd01a5f9f8efb333a22c1b6c04c1b3 
-- [x] Package ID's Screenshot from Explorer:  
-![](images/publish_package_explorer.png)
+![](images/task1_wallet.png)
+- [x] Package ID: `0xf11589cdcd0cfb55573861d82dcc8140cdf3cabc9c03681c26f1bdbdc17d705b` 
+- [x] Package ID's Screenshot from Explorer: ![](images/task1.png)
 
 ### 02 move coin
 - [ ] `My Coin` Package ID:
