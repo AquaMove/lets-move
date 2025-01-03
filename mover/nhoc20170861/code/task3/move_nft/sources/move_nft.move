@@ -1,3 +1,12 @@
+/*
+/// Module: move_nft
+module move_nft::move_nft;
+Author: nhoc20170861
+*/
+
+// For Move coding conventions, see
+// https://docs.sui.io/concepts/sui-move-concepts/conventions
+
 module move_nft::move_nft {
     use sui::url::{Self, Url};
     use std::string::{Self, String};

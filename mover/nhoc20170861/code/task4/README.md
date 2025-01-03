@@ -14,11 +14,11 @@ sui move new move_game
 └── tests
     └── move_nft_tests.move
 ```
-- Modify file [`move_game.move`](mover/nhoc20170861/code/task3/my_coin/sources/move_game.move) and write your source code 
+- Modify file [`move_game.move`](mover/nhoc20170861/code/task4/move_game/sources/move_game.move) and write your source code 
 
 2. Build your **move_game** package
 ```sh
-cd ~/mover/nhoc20170861/code/task3/move_game 
+cd ~/mover/nhoc20170861/code/task4/move_game 
 # build this package
 sui move build
 ```
@@ -56,12 +56,12 @@ export adminID=0x7ea50a7544be2b7527ae138e1cd341eb2f6b968f4b2efa370de16c9f79e0f33
 ```sh
 # export sui cli current address, package id of faucet_coin and treasury created from task 2
 export treasury=0x4cff8dda6e54dfac06dde2f4d340c39f91570c15bf369429f1694ce20b0c79db
-export recipient=0xe5209f6d7c0ff44257cb20051438748c96826e6b2acf4f0b0fa7280923e96c9b
+export sui_cli_address=0xe5209f6d7c0ff44257cb20051438748c96826e6b2acf4f0b0fa7280923e96c9b
 export faucet_coinID=0x81526d8512cd7e19610653ab8c3677da5dc6920fa4a168229d99d9f0cfddb658
 export faucet_ammount=2000000000
 
 # call function
-sui client call --package $faucet_coinID --module faucet_coin --function mint_token --args $treasury $faucet_ammount $recipient
+sui client call --package $faucet_coinID --module faucet_coin --function mint_token --args $treasury $faucet_ammount $sui_cli_address
 
 # Then export faucet_coint after creating
 export faucet_coin1=0xb70c9d34967ce4413c8efd4ff45eaafeeb23986c59d17f2e6bbfc0343fb4aa7f
@@ -121,3 +121,7 @@ export random=0x8
 export guess=true
 sui client call --package $packageID --module move_game --function play --args $gameID $random $guess $faucet_coin2 --gas-budget 1000000000
 ```
+
+> [NOTE]
+> REWARD value is 1 SUI (10^9 gas) So when the customer answers incorrectly if there aren't enough coins, you'll get an error when calling the split function inside the deposit method
+![alt text](error_split.png)

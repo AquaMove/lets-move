@@ -1,3 +1,12 @@
+/*
+/// Module: my_coin
+module my_coin::my_coin;
+Author: nhoc20170861
+*/
+
+// For Move coding conventions, see
+// https://docs.sui.io/concepts/sui-move-concepts/conventions
+
 module my_coin::my_coin;
 
 use sui::coin::{Self, TreasuryCap};

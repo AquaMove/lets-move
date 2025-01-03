@@ -1,6 +1,7 @@
 /*
 /// Module: hello_move
 module hello_move::hello_move;
+author: nhoc20170861
 */
 
 // For Move coding conventions, see

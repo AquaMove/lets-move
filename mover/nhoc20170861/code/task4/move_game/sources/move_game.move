@@ -1,3 +1,12 @@
+/*
+/// Module: move_game
+module move_game::move_game;
+Author: nhoc20170861
+*/
+
+// For Move coding conventions, see
+// https://docs.sui.io/concepts/sui-move-concepts/conventions
+
 module move_game::move_game {
     use sui::balance::{Self, Balance};
     use sui::coin::{Self, Coin};
@@ -28,6 +37,10 @@ module move_game::move_game {
         }, ctx.sender());
     }
 
+    /// The `deposit` function adds a specified amount of `FAUCET_COIN` to the game's balance.
+    /// It takes a mutable reference to the game, a mutable reference to the coin to deposit from,
+    /// and the amount to deposit. The function splits the specified amount from the coin's balance
+    /// and then adds it to the game's balance.
     entry fun deposit(
         move_game: &mut Game,
         coin: &mut Coin<FAUCET_COIN>,
@@ -57,11 +70,14 @@ module move_game::move_game {
         let mut random_generator = random::new_generator(rnd, ctx);
         let flag = random::generate_bool(&mut random_generator);
         
+        // flag is a random boolean value
+        // if the user's guess matches the flag, they win the reward
+        // otherwise, the reward is added to the game's balance
         if (flag == guess) {
             let reward = coin::take(&mut move_game.balance, REWARD, ctx);
-            coin::join(coin, reward);
+            coin::join(coin, reward); // reward is added to the user's coin
         } else {
-            deposit(move_game, coin, REWARD);
+            deposit(move_game, coin, REWARD); // reward is added to the game's balance
         }
     }
 

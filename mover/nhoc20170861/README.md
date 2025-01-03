@@ -46,10 +46,14 @@
 - [X] Withdraw Coin Hash: FVzhoUXqnPVV5oFXTxdxrtM1uFoeUbG42LCLYojaRhTV
 - [X] Play Game Hash: AsbUQCEuncTesq5eNhPh7PdWZ2kHQqVerLSm43UkK78a
 
+> [INFO]
+> GameID=0x5f4986a11c29faa5705ce5bc7b24a57387e2e264cc7391f5f7b684bb95701423
+> AdminID=0x7ea50a7544be2b7527ae138e1cd341eb2f6b968f4b2efa370de16c9f79e0f335
+
 ### 05 move swap
-- [ ] Swap Package ID:
-- [ ] Call Swap Coin A -> Coin B hash:
-- [ ] Call Swap Coin B -> Coin A hash:
+- [X] Swap Package ID: 0xf425c48010750efddd00714daabbac52e0db2f225ac1c72cd938b87932d726ce
+- [X] Call Swap Coin A -> Coin B hash: CaAZd2NJ4gMN6iaW8jELsuDJ9x32cAb7kDxzvnzP2T3J
+- [X] Call Swap Coin B -> Coin A hash: Du4SXmDJas23F8emRRBPd4WAfM2F7omSajc5pUJppt5w
 
 ### 06 dapp-kit SDK PTB
 - [ ] Save Hash:

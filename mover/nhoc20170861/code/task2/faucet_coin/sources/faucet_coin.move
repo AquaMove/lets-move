@@ -1,3 +1,12 @@
+/*
+/// Module: faucet_coin
+module faucet_coin::faucet_coin;
+Author: nhoc20170861
+*/
+
+// For Move coding conventions, see
+// https://docs.sui.io/concepts/sui-move-concepts/conventions
+
 module faucet_coin::faucet_coin;
 
 use sui::coin::{Self, TreasuryCap};
