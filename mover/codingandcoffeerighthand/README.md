@@ -33,10 +33,10 @@
 - [x] NFT's Screenshot from Explorer: ![](images/task3.png)
 
 ### 04 move game
-- [ ] Game Package ID:
-- [ ] Deposit Coin Hash:
-- [ ] Withdraw Coin Hash:
-- [ ] Play Game Hash:
+- [x] Game Package ID: `0xd64631d5d363d8c039c146e69ee1e1c2251e76e56d5a2794e34908bfa6e0641e`
+- [x] Deposit Coin Hash: `8ENx8YqA3nquMMyuoHYxtcJSYZu8swrbKVwpE8PZjy1b`
+- [x] Withdraw Coin Hash: `AB3BaeUKjRebAUjYGuxuqWusfvu1emo48HubUwgLoHnE`
+- [x] Play Game Hash: `9t7cJfPHZ1mCmnXDXAzqGCLrJnVyoy3zeb6GJd1dCaAF`
 
 ### 05 move swap
 - [ ] Swap Package ID:
