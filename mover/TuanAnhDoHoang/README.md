@@ -4,11 +4,11 @@
 - Github: `TuanAnhDoHoang`
 
 ## Personal Introduction
-- Work Experience: `0 years`
+- Work Experience: `No experience`
 - Tech Stack: `C++`.
 > Important: Please take your personal introduction seriously.
 - Years of experience in web2 development, particularly interested in Move, aiming to use Move as an entry point into blockchain. (This is just an example, please write your own introduction and feel free to add more details.)
-- Contact: telegram ``
+- Contact: telegram `0942082784`
 
 ## Tasks
 
