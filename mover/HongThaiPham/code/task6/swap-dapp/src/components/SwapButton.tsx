@@ -21,6 +21,8 @@ const SwapButton: React.FC<Props> = ({ from, to, amount }) => {
   const fromCoin = SWAP_COINS[from];
 
   const toCoin = SWAP_COINS[to];
+  console.log("fromCoin", fromCoin);
+  console.log("toCoin", toCoin);
 
   const { data: fromCoinbalance } = useSuiClientQuery(
     "getBalance",
