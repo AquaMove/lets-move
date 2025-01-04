@@ -72,7 +72,6 @@ module mygame::task4_game{
           }else {
             deposit(game, coin, 1_000_000_000);
           }
-
-}
+     }
 }
 
