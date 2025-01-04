@@ -85,7 +85,13 @@ sui client call --package $packageID --module move_swap --function add_money_to_
 ![alt text](add_coin_to_point.png)
 
 ### Step 3: swap my_coin to faucet_coin
+```sh
+# Deposit my_coin to the pool and pay the corresponding amount of faucet_coin to the recipient
 sui client call --package $packageID --module move_swap --function swap_my_coin_to_faucet_coin --args $poolID $my_coin2
+```
 
 ### Step 4: swap faucet_coin to my_coin 
+```sh
+# Deposit faucet_coin to the pool and pay the corresponding amount of my_coin to the recipient
 sui client call --package $packageID --module move_swap --function swap_faucet_coin_to_my_coin --args $poolID $faucet_coin2
+```sh
