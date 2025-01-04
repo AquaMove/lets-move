@@ -43,4 +43,4 @@
 - [x] Call Swap Coin B -> Coin A hash: Dbwcjcm4EZax4tsDF9HYifpAc4jxH23ZWarDSAkDJGrH
 
 ### 06 dapp-kit SDK PTB
-- [ ] Save Hash:
+- [x] Save Hash: BPsvFw44mPs5pypGGuke2GegGDNzm55JaVwQaEDES9tY
