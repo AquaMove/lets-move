@@ -19,15 +19,15 @@
 - [x] Sui CLI Version: sui 1.39.3
 - [x] Sui Wallet Screenshot: ![](images/sui_wallet.png)
 - [x] Package ID: 0xdde2e69da77da1c5eedd57a4c96f1150d63077107db0dcc397012b71d11ebfe5
-- [ ] Package ID's Screenshot from Explorer: ![](images/package_id_explorer.png)
+- [x] Package ID's Screenshot from Explorer: ![](images/package_id_explorer.png)
 
 ### 02 move coin
 
-- [ ] `My Coin` Package ID:
-- [ ] `Faucet Coin` Package ID:
-- [ ] Transfer `My Coin` hash:
-- [ ] `Faucet Coin` address 1 mint hash:
-- [ ] `Faucet Coin` address 2 mint hash:
+- [x] `My Coin` Package ID: 0xf09cec3e0f74d332343828109fc4c9058eaa0f61ed611a263f039c3af21fd402
+- [x] `Faucet Coin` Package ID: 0x5123d46b7c489c91d8d42fe53d76526d95016cff4dac80beff12c65e6b404b98
+- [x] Transfer `My Coin` hash: CT6PJhHDLFMVnzz54Vsv1QUcT67S1583oMnqrFaTKvNG
+- [x] `Faucet Coin` address 1 mint hash: 8bo7H8jYyK5axWVpbPfXpJEX11cWggNd4ztBU39FJFSG
+- [x] `Faucet Coin` address 2 mint hash: H3QX3BFppiNchUPRqB4EQgBLM61DeC9Epw13NVdhTDrW
 
 ### 03 move nft
 
