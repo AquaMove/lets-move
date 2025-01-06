@@ -24,6 +24,7 @@ export function SendSui() {
 
         // Send a thank you letter
         // This module is defined in the "../letter" folder
+        // The supporter sends to himself a thank you letter :D
         txb.moveCall({
             package: LETTER_PACKAGE_ID,
             module: 'letter',
