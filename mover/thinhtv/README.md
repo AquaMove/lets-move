@@ -46,4 +46,5 @@
 - [x] Pool ID: 0x8fcd344b7e9f4380ff30a4e474b74bd4ab4aac76725083469d7fcda93219899d
 
 ### 06 dapp-kit SDK PTB
-- [ ] Save Hash:
+- [x] Save Hash: 5PnsRLUxywyqajN9Wxtnp7vmBMcLkFopoNRWbnyGCEMo
+- [x] Save Hash with movecall: CbBcubf215YVWkDJn9vTcZ8DyKpXRnCVTNSPBSFxV9HL
