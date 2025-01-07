@@ -25,7 +25,7 @@
 
 - [x] `My Coin` Package ID: 0xf09cec3e0f74d332343828109fc4c9058eaa0f61ed611a263f039c3af21fd402
 - [x] `Faucet Coin` Package ID: 0x5123d46b7c489c91d8d42fe53d76526d95016cff4dac80beff12c65e6b404b98
-- [x] Transfer `My Coin` hash: CT6PJhHDLFMVnzz54Vsv1QUcT67S1583oMnqrFaTKvNG
+- [x] Transfer `My Coin` hash: FzKfLb5v9t99ZcrMhc8edFd3vhu7NeaP1uBQp9uyELmd
 - [x] `Faucet Coin` address 1 mint hash: 8bo7H8jYyK5axWVpbPfXpJEX11cWggNd4ztBU39FJFSG
 - [x] `Faucet Coin` address 2 mint hash: H3QX3BFppiNchUPRqB4EQgBLM61DeC9Epw13NVdhTDrW
 
