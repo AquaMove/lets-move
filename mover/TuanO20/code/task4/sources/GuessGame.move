@@ -32,6 +32,7 @@ fun init(ctx: &mut TxContext) {
 } 
 
 public entry fun deposit(game: &mut Game, coin: &mut Coin<FAUCET_COIN>, amount: u64) {
+    // Check if the balance of FAUCET_COIN object
     assert!(coin::value(coin) >= amount, EInsufficientFund);
 
     let split_balance = balance::split(coin::balance_mut(coin), amount);
