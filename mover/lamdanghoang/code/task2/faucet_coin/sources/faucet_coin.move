@@ -7,7 +7,7 @@ module faucet_coin::faucet_coin;
 // https://docs.sui.io/concepts/sui-move-concepts/conventions
 
 
-module 0x0::faucet_coin {
+module faucet_coin::faucet_coin {
 
     use sui::coin::{Self, TreasuryCap};
 

@@ -38,10 +38,10 @@
 
 ### 04 move game
 
-- [ ] Game Package ID:
-- [ ] Deposit Coin Hash:
-- [ ] Withdraw Coin Hash:
-- [ ] Play Game Hash:
+- [x] Game Package ID: 0xcb4e936168ca1b2c4b8cd924ce496c41b5c3cc0406d6d500b3972ea982549a65
+- [x] Deposit Coin Hash: GDPPAe2AfMBdKTbB3kPGM8N18qx9D3QZcvVH8X31J3Hb
+- [x] Withdraw Coin Hash: CWdN4dJvMLpU7h8XUGn3c6sy4uqMDEFZgBLXsS1yAayG
+- [x] Play Game Hash: GAp6FCarWLsRJnMT5681G5MxFPj5CfjVxMo7r1MXYWZe
 
 ### 05 move swap
 
