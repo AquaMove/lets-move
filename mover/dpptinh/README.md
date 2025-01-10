@@ -7,7 +7,7 @@
 - **Work Experience:** Over 1 year of experience in AI, particularly in NLP.  
 - **Tech Stack:** Python, PyTorch, Langchain,...  
 - **Interest:** Currently exploring Web3 and blockchain, with a keen interest in using Move as an entry point into the blockchain field.  
-- Contact: telegram `@dpphuctinh`
+- **Contact:** Telegram `@dpphuctinh`
 
 ## Tasks
 
