@@ -22,11 +22,11 @@
 - [x] Package ID's images/task1_Sui_Wallet.png
 
 ### 02 move coin
-- [x] `My Coin` Package ID: 0xfb6ad20ec0d826daceda2de4eaec12c00101e22f2462184ac0387f4f4ef11726 
-- [x] `Faucet Coin` Package ID: 0x5bf20a39f4583234440803e8b04e7755744220d6d4b3c2841ced80f402b54bdb
-- [x] Transfer `My Coin` hash: BkkD44SDr62DUL1e9upUhTjTZujUycgyTfBuEa8qPz1g
-- [x] `Faucet Coin` address 1 mint hash: 0x0d2078cc70817b20a9bb11824635ac2b46ae86d1192dff9f2a23aad20e9cdab4
-- [x] `Faucet Coin` address 2 mint hash: 0xf843f93556205b046d35da053eef3b62da1874b30d656cd10720c11ed9c92d9e
+- [x] `My Coin` Package ID: 0xa2d18c1c0c07ba0cdc4b6eff855dd77195d8c0f86af11853e43a1c5d32a089e9 
+- [x] `Faucet Coin` Package ID: 0x06b4c6c0fa46562e1e33a852ee03c0dcefbe7956d68c08bcdf7a2d0739e3206f
+- [x] Transfer `My Coin` hash: 4FWKpPAK3o8eccVPvExtjY17k9rcV5aXb9NVGgD1cTD7
+- [x] `Faucet Coin` address 1 mint hash: F5NXzPHQ87C65qtQM9gQH5jG9d29DoQptiiSdEGRB9BJ
+- [x] `Faucet Coin` address 2 mint hash: 12jAxdB9po9AftXpNRj7eUMeD17pvpAm7EhVZ88C5b1k
 
 ### 03 move nft
 - [x] NFT Package ID: 0x2810980bd3c1f4e0a2ae2bb542664b58b6568a17f052c24258aebaf7e40c4191
