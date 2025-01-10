@@ -1,0 +1,15 @@
+[package]
+name = "faucet_token"
+edition = "2024.beta" 
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+faucet_token = "0x0"
+sui =  "0x2"
+
+[dev-dependencies]
+
+
+[dev-addresses]
