@@ -7,7 +7,7 @@ module my_coin::my_coin;
 // https://docs.sui.io/concepts/sui-move-concepts/conventions
 
 
-module 0x0::my_coin {
+module my_coin::my_coin {
      
     use sui::coin::{Self, TreasuryCap};
     use sui::tx_context::{Self, TxContext};

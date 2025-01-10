@@ -2,10 +2,11 @@
 
 [move]
 version = 3
-manifest_digest = "0A4652D38CF3C3FDB79EC6C1C98FCFF7B2E933E12B84A1DA267DB28F66AFECE3"
-deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
+manifest_digest = "E49C09236501D3AB8B97B85F9A9C8CA8430DD21C022901B00231DB9A59118FDD"
+deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
   { id = "Sui", name = "Sui" },
+  { id = "my_coin", name = "my_coin" },
 ]
 
 [[move.package]]
@@ -20,6 +21,14 @@ dependencies = [
   { id = "MoveStdlib", name = "MoveStdlib" },
 ]
 
+[[move.package]]
+id = "my_coin"
+source = { local = "../task2/my_coin" }
+
+dependencies = [
+  { id = "Sui", name = "Sui" },
+]
+
 [move.toolchain-version]
 compiler-version = "1.40.0"
 edition = "2024.beta"
@@ -29,6 +38,6 @@ flavor = "sui"
 
 [env.testnet]
 chain-id = "4c78adac"
-original-published-id = "0x951e219a868169525da93147877bdf1e8905e1a1a6ef4d90aaccbeb260bbe03e"
-latest-published-id = "0x951e219a868169525da93147877bdf1e8905e1a1a6ef4d90aaccbeb260bbe03e"
+original-published-id = "0x64ca4e6efd1ee5268d691b5f839344ef405fb6b33ec4c4f6b301ffe144ede68b"
+latest-published-id = "0x64ca4e6efd1ee5268d691b5f839344ef405fb6b33ec4c4f6b301ffe144ede68b"
 published-version = "1"
