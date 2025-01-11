@@ -52,3 +52,9 @@ mint-faucet-coin:
 	
 # ObjectID:0xe986705f1fc23a91ec33f829899b930d376179a424c5771488d9337553d434b9
 # ObjectType: 0x224f8dc5ce2b50aa05b1a2f7f3bc837c6488303482ac521ac0bbbe821277870b::faucet_coin::TreasuryCapKeeper 
+
+call-package-nft:
+	sui client call --package 0x064f81806b60a0ba739fcaaef8055ba46bdbffda8b83e1be1679196d331f761a --module move_nft --function mint --args '' '' 0x052f5a900488ef4a6c130e395ea6c10d1b0d73e12adb7da43dfd5ef47ecd5a6e
+
+transfer-nft:
+	sui client transfer --to 0xa9ddd77d41119bdcbab0f5c4d18bf15e65034607afc5a296865f640e0d33d958 --object-id 0x9a12a04ef2c2f417bd62cf9702683afd2611e7d4ace1a23f3ade85c2cef9c27d 
