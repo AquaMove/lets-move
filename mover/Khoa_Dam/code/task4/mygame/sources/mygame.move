@@ -3,7 +3,7 @@
 module mygame::mygame;
 */
 
-module mygame::task4_game{
+module 0x0::task4_game{
 
     use sui::balance::{Self, Balance};
     use sui::coin::{Self, Coin};
@@ -36,7 +36,7 @@ module mygame::task4_game{
    entry fun deposit(
         game: &mut Game,
         coin: &mut Coin<MY_COIN>,
-        amout: u64
+        amount: u64
    ){
         let split_balance = balance::split(coin::balance_mut(coin), amount);
         

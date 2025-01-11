@@ -2,11 +2,10 @@
 
 [move]
 version = 3
-manifest_digest = "8F2E17C075446AD9F8A070942EE448CC010639E939E2399533CE9B793502620C"
-deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
+manifest_digest = "B9A2BB26C71B4C2886B4F326E878A3120CDB50B66EDA7ADEC517BA3FB03C8C6D"
+deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
 dependencies = [
   { id = "Sui", name = "Sui" },
-  { id = "my_coin", name = "my_coin" },
 ]
 
 [[move.package]]
@@ -21,14 +20,6 @@ dependencies = [
   { id = "MoveStdlib", name = "MoveStdlib" },
 ]
 
-[[move.package]]
-id = "my_coin"
-source = { local = "/home/khoadn/MOVER-Khoa/mover/Khoa_Dam/code/faucet_coin" }
-
-dependencies = [
-  { id = "Sui", name = "Sui" },
-]
-
 [move.toolchain-version]
 compiler-version = "1.38.3"
 edition = "2024.beta"
@@ -38,6 +29,6 @@ flavor = "sui"
 
 [env.testnet]
 chain-id = "4c78adac"
-original-published-id = "0xfa460803c8cb7e27ee13e5231c631ccc2f1a7fac31e7a9aac017e86446689eef"
-latest-published-id = "0xfa460803c8cb7e27ee13e5231c631ccc2f1a7fac31e7a9aac017e86446689eef"
+original-published-id = "0x2ae71e1351dd495428765141f10955edee99136a8003aaa7539fee28abbe9fb8"
+latest-published-id = "0x2ae71e1351dd495428765141f10955edee99136a8003aaa7539fee28abbe9fb8"
 published-version = "1"
