@@ -44,10 +44,10 @@
 
 ### 04 move game
 
-- [ ] Game Package ID:
-- [ ] Deposit Coin Hash:
-- [ ] Withdraw Coin Hash:
-- [ ] Play Game Hash:
+- [x] Game Package ID: [0x288db4dcbc36d7de1e9ee73bf10f621495e64809515e85d6c2066547a06725bc](https://suiscan.xyz/testnet/object/0x288db4dcbc36d7de1e9ee73bf10f621495e64809515e85d6c2066547a06725bc/contracts)
+- [x] Deposit Coin Hash: 4V9tb7ioPsdtuq4DFqAPtw8g5hiUGSXcfSqLXbs75qyV
+- [x] Withdraw Coin Hash: GPU69bZchNAvEDizfxrZyhLfq5yNPqHwBC2aBBswFP3i
+- [x] Play Game Hash: 8tBPTzYoV6yZGEVM5T5sSSDZvZdcNVmTdM8z1shxU5EZ
 
 ### 05 move swap
 
