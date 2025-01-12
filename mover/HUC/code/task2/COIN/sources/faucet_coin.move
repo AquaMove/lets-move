@@ -1,5 +1,5 @@
 
-module 0x0::faucet_coin {
+module my_coin::faucet_coin {
      
     use sui::coin::{Self, TreasuryCap};
     use sui::tx_context::{Self, TxContext};
