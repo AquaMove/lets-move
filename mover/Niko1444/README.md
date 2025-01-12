@@ -49,4 +49,5 @@
 
 ### 06 dapp-kit SDK PTB
 
-- [ ] Save Hash:
+- [x] Save Hash: HJ2EimUYz6qnLpFkrd72XAN6ZE2mEnPRZR5dDL8FM96G
+- A simple donate site: https://donate-me-niko1444.vercel.app/ <br> ![Niko1444-donate-site](/mover/Niko1444/code/task6/donate-Niko1444-please/images/donate_site.png)
