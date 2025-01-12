@@ -3,7 +3,7 @@
 module faucet_coin::faucet_coin;
 */
 
-module 0x0::faucet_coin {
+module task4::faucet_coin {
     use sui::coin::{Self, TreasuryCap};
     use sui::url;
 
