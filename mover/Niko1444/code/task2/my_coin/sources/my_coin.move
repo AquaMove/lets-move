@@ -22,12 +22,13 @@ module 0x0::my_coin {
 
         transfer::public_freeze_object(coinmetadata);
         transfer::public_transfer(treasury, tx_context::sender(ctx))
-}
+    }
 
     public fun mint_coin(treasury: &mut TreasuryCap<MY_COIN>, ctx: &mut TxContext){
         let coin_object = coin::mint(treasury, 100000, ctx);
         transfer::public_transfer(coin_object, ctx.sender());
     }
+    
 }
 
 // For Move coding conventions, see
