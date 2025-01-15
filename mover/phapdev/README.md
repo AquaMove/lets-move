@@ -51,9 +51,9 @@
 
 ### 05 move swap
 
-- [ ] Swap Package ID:
-- [ ] Call Swap Coin A -> Coin B hash:
-- [ ] Call Swap Coin B -> Coin A hash:
+- [x] Swap Package ID: 0x591b869a61ddc57084ee4d5369c1144dfa0eae1b68af4c4b171f5c2bf4c99a9e
+- [x] Call Swap Coin A -> Coin B hash: [G2sWDuymWGwWPAFcFFhDCZQjWKibe36inwFopYwnNTU6](https://suiscan.xyz/testnet/tx/G2sWDuymWGwWPAFcFFhDCZQjWKibe36inwFopYwnNTU6)
+- [x] Call Swap Coin B -> Coin A hash: [FjC4z8j7Eug6NpiaWMbUmXecEjpnb78tpMwbL724GV6X](https://suiscan.xyz/testnet/tx/FjC4z8j7Eug6NpiaWMbUmXecEjpnb78tpMwbL724GV6X)
 
 ### 06 dapp-kit SDK PTB
 
