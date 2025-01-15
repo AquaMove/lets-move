@@ -1,14 +1,14 @@
 ## Basic Information
-- Sui Wallet Address: `0x0000xxx`
+- Sui Wallet Address: `0x687e7d1b027c3d515bbce3f7339fbd395520f3c81271efcf3372692d76fe3f72`
 > First-time participants must complete the registration of the wallet address through the first task to have it merged. You should use this address for subsequent tasks. We will also use this address to credit the learning rewards.
-- Github: `your_github_id`
+- Github: `DevSUI2024`
 
 ## Personal Introduction
-- Work Experience: `X years`
-- Tech Stack: `Rust` `C++` , etc.
+- Work Experience: `0 years`
+- Tech Stack: `Solidity` `C++` , `JavaScript` etc.
 > Important: Please take your personal introduction seriously.
-- Years of experience in web2 development, particularly interested in Move, aiming to use Move as an entry point into blockchain. (This is just an example, please write your own introduction and feel free to add more details.)
-- Contact: telegram `xxx`
+- I'm into learning web3 and investing in crypto. My first web3 language is Solidity and I hope to learn a lot of things from Move and Sui
+- Contact: telegram `waics01`
 
 ## Tasks
 
