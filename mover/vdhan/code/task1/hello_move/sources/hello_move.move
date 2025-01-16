@@ -7,8 +7,6 @@ module hello_move::hello_move {
 
     public struct Hello_vdhan has key {
         id: UID,
-
-        /// name: String
         name: String
     }
 
