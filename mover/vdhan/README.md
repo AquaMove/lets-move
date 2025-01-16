@@ -13,7 +13,7 @@
 ## Tasks
 
 ### 01 hello move
-- [x] Sui CLI Version: sui 1.40.1
+- [x] Sui CLI Version: sui 1.40.3
 - [x] Sui Wallet Screenshot: ![](/mover/vdhan/images/sui_wallet.png)
 - [x] Package ID: 0xfc676b1c37c626b4a8e373611b594b66a5b6ac0223d0b37e0117decd20affbbe
 - [x] Package ID's Screenshot from Explorer: ![](/mover/vdhan/images/task1.png)
@@ -26,10 +26,10 @@
 - [x] `Faucet Coin` address 2 mint hash: CMVtSpk3ZNyobzoRH2XPGunh1dEKv6wrdL95dPa1kpSV
 
 ### 03 move nft
-- [ ] NFT Package ID:
-- [ ] NFT Object ID:
-- [ ] Transfer NFT hash:
-- [ ] NFT's Screenshot from Explorer: Link to image uploaded to `images` folder.
+- [x] NFT Package ID: 0x8f5a399cbaabd9c1f693d82b7e8c14fa07404e70f6e2062711ebdfaaa08fc360
+- [x] NFT Object ID: 0xf52fb321c506c6dda6af3e1e28b76890baa588a546cef408203b7cee68f83b57
+- [x] Transfer NFT hash: 2jkARBywYEqvZsHBzByPAbpFfrpfg3qjiqhn5fAfr7Wa
+- [x] NFT's Screenshot from Explorer: ![](/mover/vdhan/images/task3.png)
 
 ### 04 move game
 - [ ] Game Package ID:
