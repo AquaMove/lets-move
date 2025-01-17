@@ -1,5 +1,5 @@
-module 0x0::task3;
-use std::string::{String};
+module task3::task3;
+use std::string::String;
 use sui::url::{Self, Url};
 
 public struct AnNFT has key, store {
@@ -20,7 +20,7 @@ fun init(ctx: &mut TxContext) {
     transfer::transfer(obj, ctx.sender());
 }
 
-public entry fun mint(ctx: &mut TxContext) {
+entry fun mint(ctx: &mut TxContext) {
     let obj = AnNFT {
         id: object::new(ctx),
         name: b"Vũ Đắc Hoàng Ân".to_string(),
