@@ -31,4 +31,4 @@ module faucet_token::faucet_token {
         let mint_coin = coin::mint(treasury, 1000000000000000000, ctx);
         transfer::public_transfer(mint_coin, ctx.sender());
     }
-}
+} 
