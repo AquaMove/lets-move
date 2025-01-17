@@ -5,7 +5,7 @@
 
 ## Personal Introduction
 - Work Experience: `1 years`
-- Tech Stack: `REACT` `NEXTJS` , etc.
+- Tech Stack: `REACT` `NEXTJS`, `NODEJS`, `MONGODB`, `Kotlin`, etc.
 > Important: Please take your personal introduction seriously.
 - 1 Year of experience in web2 development, particularly interested in Move, aiming to use Move as an entry point into blockchain.
 - Contact: telegram ``
@@ -19,11 +19,11 @@
 - [x] Package ID's Screenshot from Explorer: ![](images/sui_explorer.png)
 
 ### 02 move coin
-- [ ] `My Coin` Package ID:
-- [ ] `Faucet Coin` Package ID:
-- [ ] Transfer `My Coin` hash:
-- [ ] `Faucet Coin` address 1 mint hash:
-- [ ] `Faucet Coin` address 2 mint hash:
+- [x] `My Coin` Package ID: 0xd43e32829240189cea70cacf8363e089e372e44f77f97e56359663e850243bfe
+- [x] `Faucet Coin` Package ID: 0x537540423a252ec5687dd347390af56adf7bc1790b46cf02e72d066a3b30dcc2
+- [x] Transfer `My Coin` hash: FJ9yvX4Zpb5tWuxZU5TTVEFGUKXgUKF3hKEWTPMj2jK4
+- [x] `Faucet Coin` address 1 mint hash: 1z7JqBrnK4EqLYuJEHjJqgSWTJik1EieJQ1x7ZPKg8k
+- [x] `Faucet Coin` address 2 mint hash: DcnSW8QH111WjtpNUiDUvX2KmBsffFhRJRAtr8iAqJNA
 
 ### 03 move nft
 - [ ] NFT Package ID:
