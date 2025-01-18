@@ -2,8 +2,8 @@ module my_coin::faucet_coin;
 use sui::coin::{Self, TreasuryCap};
 use std::u64;
 
+const DECIMALS: u8 = 8;
 public struct FAUCET_COIN has drop {}
-const DECIMALS: u8 = 9;
 
 fun init(witness: FAUCET_COIN, ctx: &mut TxContext) {
     let (treasury, coin_meta) = coin::create_currency(
