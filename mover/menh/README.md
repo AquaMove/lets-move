@@ -21,31 +21,31 @@
 
 ### 02 move coin
 
-- [x] `My Coin` Package ID: 0xd4e353c3e7a50166faa04b5b99745091bcfe9de4478927f794877234097f0547
-- [x] `Faucet Coin` Package ID: 0x69d192decae037d5716491e9347ee87bcd45c60f1e47cc007dea9657aabdfca
-- [x] Transfer `My Coin` hash: 4i2j1mgHoG8ipDxnq6dVHEgE5gmAc5NenJiD1mPpUh8X
+- [x] `My Coin` Package ID: 0x1dd6c4e05b4ce3ed051a477e7bd5639ae087a7bb92caee76cb8fdcbd1f2ed500
+- [x] `Faucet Coin` Package ID: 0x4b40a1616de5132bca83ee5eb14fe8d4c3e7091288474edf0832df4c7a9da32c
+- [x] Transfer `My Coix` hash: 2JDmwfUiDpjpifQQhjf6RoXnXfGxpqBTthjGMc3PumED
 - [x] `Faucet Coin` address 1 mint hash: 7sEAcybcbgsmRURKQEzoJGzTtRbzpzhek2xHNBMhgwWK
 - [x] `Faucet Coin` address 2 mint hash: AquayindAW4rABaS95CRmfqNjLxEqc7B7t9m3QdaDxpm
 
 ### 03 move nft
 
-- [ ] NFT Package ID:
-- [ ] NFT Object ID:
-- [ ] Transfer NFT hash:
-- [ ] NFT's Screenshot from Explorer: Link to image uploaded to `images` folder.
+- [x] NFT Package ID: 0xf3fa45593b811fb64a67d3c90d19b9e0ddcb542e96480a152e79792399b53758
+- [x] NFT Object ID: 0x49829381ded62cd94828f1be23386c62f2755de6ba1bf09a1dae2e980170b941
+- [x] Transfer NFT hash: 4xda4Dugf5M9uVVCPxVKNRjyAx3xYmXia2ndg6XmtimW
+- [x] NFT's Screenshot from Explorer: ./images/nft.png
 
 ### 04 move game
 
-- [ ] Game Package ID:
-- [ ] Deposit Coin Hash:
-- [ ] Withdraw Coin Hash:
+- [x] Game Package ID: 0xa1a2269d61afe5ae66e78894246406b3679705310203d400921b12603ad3ae2f
+- [x] Deposit Coin Hash: EdiSEWAFrZ1ozvBvfzX8wiFKzgVEFxzdk9ktcLyZFGf
+- [x] Withdraw Coin Hash: 46UX15sWYrWWXXra2Kqqy2MCZ3DTVZdLcXJzNKcFYJt
 - [ ] Play Game Hash:
 
 ### 05 move swap
 
-- [ ] Swap Package ID:
-- [ ] Call Swap Coin A -> Coin B hash:
-- [ ] Call Swap Coin B -> Coin A hash:
+- [x] Swap Package ID: 0xe0296e616b5059385badcccd5d3274b96850f57e41273c034d31312480792e0e
+- [x] Call Swap Coin A -> Coin B hash: ERGigS4CgB34sprX5NF3fiTKx879Wbdm5CEqRXeVm9bt
+- [x] Call Swap Coin B -> Coin A hash: 5JuUiqiWGqgfga5dxWfotnfA5ysjjhJ5sdDNkdpUV2Bk
 
 ### 06 dapp-kit SDK PTB
 
