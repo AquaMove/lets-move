@@ -9,7 +9,7 @@ fun init(witness: MY_COIN, ctx: &mut TxContext) {
     let (treasury, coin_meta) = coin::create_currency(
         witness, DECIMALS, b"ZRC", b"Zircon", b"An's Coin", option::none(), ctx);
 
-    transfer::public_freeze_object(coin_meta);
+    transfer::public_transfer(coin_meta, ctx.sender());
     transfer::public_transfer(treasury, ctx.sender());
 }
 
