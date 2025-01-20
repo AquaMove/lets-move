@@ -10,7 +10,7 @@ module hello_move::hello_move {
         name: String
     }
 
-    public entry fun shoutout_vdhan(ctx: &mut TxContext) {
+    entry fun shoutout_vdhan(ctx: &mut TxContext) {
         let hello_world = Hello_vdhan {
             id: object::new(ctx),
             name: b"Hello vdhan".to_string()
