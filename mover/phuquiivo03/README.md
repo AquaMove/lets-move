@@ -30,24 +30,24 @@
 
 ### 03 move nft
 
-- [ ] NFT Package ID: 0x65f6926ecf3b563cc0d099499ef9aa36ccb4d81a91c07cc575ba4aa1dac9333b
-- [ ] NFT Object ID: 0x154a164806e903a5e0ed181984699bbf541a1e711952b8464891b9b550611c01
-- [ ] Transfer NFT hash:
-- [ ] NFT's Screenshot from Explorer: Link to image uploaded to `images` folder. [link](./images/task3.png)
+- [x] NFT Package ID: 0x65f6926ecf3b563cc0d099499ef9aa36ccb4d81a91c07cc575ba4aa1dac9333b
+- [x] NFT Object ID: 0x154a164806e903a5e0ed181984699bbf541a1e711952b8464891b9b550611c01
+- [x] Transfer NFT hash: EwTkXsU8tdmjoBaVyKmhRPRiMrGp7JMVegJdXWTHbU9J
+- [x] NFT's Screenshot from Explorer: Link to image uploaded to `images` folder. [link](./images/task3.png)
 
 ### 04 move game
 
-- [ ] Game Package ID:
-- [ ] Deposit Coin Hash:
-- [ ] Withdraw Coin Hash:
-- [ ] Play Game Hash:
+- [x] Game Package ID: 0x36bf3e947e3be8a2965379244190c6386982344eeef013c7b6ce0ebc9335512a
+- [x] Deposit Coin Hash: EwTkXsU8tdmjoBaVyKmhRPRiMrGp7JMVegJdXWTHbU9J
+- [x] Withdraw Coin Hash: AGdmckyS3ScFqrBLvVDyKRdL2FpH1qmCuZfNvu1sCx3g
+- [x] Play Game Hash: HtmnET3FSc2MrZY8ikmjf56kUukFGtpt6WwQhG4zLgdQ
 
 ### 05 move swap
 
-- [ ] Swap Package ID:
-- [ ] Call Swap Coin A -> Coin B hash:
-- [ ] Call Swap Coin B -> Coin A hash:
+- [x] Swap Package ID: 0xca148fddf326b09b1ef3e5fe8e81c2c8568f9e72c0083d651f1652528263a82f
+- [x] Call Swap Coin A -> Coin B hash: F1r5DdXfzX5h8hPbmaK7uJY1YiE3LsXsgfw9WNvCcBqC
+- [x] Call Swap Coin B -> Coin A hash: Djs8YkhRZdnFprUstV78PCtZjsioYDmoVZD5KCscABPU
 
 ### 06 dapp-kit SDK PTB
 
-- [ ] Save Hash:
+- [x] Save Hash: FtrRFScRCWZHvSsBfxXyaBJVDFGyMNCHtCWazydVBFwg
