@@ -3,14 +3,7 @@ module task_5::hieungocnguyen_swap {
     use my_coin::my_coin::MY_COIN;
 
     use sui::balance::{Self, Balance};
-    use sui::coin::{
-        Self,
-        Coin,
-        from_balance,
-        into_balance
-    };
-
-    const EInputNotEnough: u64 = 0;
+    use sui::coin::{Self, Coin};
 
     public struct AdminCap has key {
         id: UID
@@ -31,33 +24,6 @@ module task_5::hieungocnguyen_swap {
         transfer::share_object(pool);
     }
 
-    // public entry fun deposit_my_coin(
-    //     pool: &mut Pool,
-    //     coin: Coin<MY_COIN>,
-    //     amount: u64,
-    //     ctx: &mut TxContext
-    // ) {
-    //     let coin_value = coin.value();
-    //     assert!(coin_value >= amount, EInputNotEnough);
-
-    //     // Convert Coin to Balance
-    //     let mut input_balance = into_balance(coin);
-
-    //     if (coin_value == amount) {
-    //         // Input amount is all tokens
-    //         balance::join(&mut pool.my_coin, input_balance);
-
-    //     } else {
-    //         balance::join(
-    //             &mut pool.my_coin,
-    //             balance::split(&mut input_balance, amount),
-    //         );
-
-    //         let surplus_coin = from_balance(input_balance, ctx);
-    //         transfer::public_transfer(surplus_coin, ctx.sender());
-    //     };
-    // }
-
     entry fun add_money_to_pool(
         pool: &mut Pool,
         my_coin: Coin<MY_COIN>,
@@ -65,20 +31,6 @@ module task_5::hieungocnguyen_swap {
     ) {
         pool.my_coin.join(my_coin.into_balance());
         pool.faucet_coin.join(faucet_coin.into_balance());
-    }
-
-    public entry fun deposit_my_coin(
-        pool: &mut Pool,
-        coin: Coin<MY_COIN>
-    ) {
-        coin::put(&mut pool.my_coin, coin)
-    }
-
-    public entry fun deposit_faucet_coin(
-        pool: &mut Pool,
-        coin: Coin<FAUCET_COIN>
-    ) {
-        coin::put(&mut pool.faucet_coin, coin)
     }
 
     public entry fun swap_my_coin_to_faucet_coin(
