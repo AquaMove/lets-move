@@ -1,10 +1,6 @@
 module my_nft::hieungocnguyen_nft {
     use sui::url::{Self, Url};
     use std::string;
-    use sui::object::{Self, ID, UID};
-    use sui::event;
-    use sui::transfer;
-    use sui::tx_context::{Self, TxContext};
 
     public struct HIEUNGOCNGUYEN_NFT has key, store {
         id: UID,

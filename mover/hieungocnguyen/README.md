@@ -13,19 +13,19 @@
 ## Tasks
 
 ### 01 hello move
-- [x] Sui CLI Version: sui 1.38.2-homebrew
+- [x] Sui CLI Version: sui 1.41.0-homebrew
 - [x] Sui Wallet Screenshot: Link to image uploaded to `images` folder.
-![wallet](images/task_1/SUI_wallet.png)
-- [x] Package ID: 0xbae81e9c09d43ddb70efd405cd19c32be8012eb278257399035f3c2d6c9bc6a2
+![wallet](images/task_1/wallet.png)
+- [x] Package ID: 0x3f828f20d39ef8caeed6dcf5ee30b6b25645c46b7f0b13b1aec62eb145df663a
 - [x] Package ID's Screenshot from Explorer: Link to image uploaded to `images` folder.
-![package_explorer](images/task_1/package_hello.png)
+![explorer](images/task_1/explorer.png)
 
 ### 02 move coin
-- [x] `My Coin` Package ID: 0x1383f54d2831a2f8b902bcb1a4de4e6371eaab889301e732b7000382ed83f03c
-- [x] `Faucet Coin` Package ID: 0xcdd6abeaa0703dae6288dd831b1047f2227f2e1a7ceb9a6c3b987f81a0c58d50
-- [x] Transfer `My Coin` hash: 8nPjmYiQjeeLai1z9kb4SxcgVvH6NUS7s6iPSZn8LNEY
-- [x] `Faucet Coin` address 1 mint hash: 4YVt7e9iZVnopF4q5hHSBQdopfLjZKU7U8cvQsLeuNFo
-- [x] `Faucet Coin` address 2 mint hash: 7fit7NhsXCTDDyU3xqJZB2CG35mGd3HaLf3cvGg6iui5
+- [x] `My Coin` Package ID: 0xd68f446c99d06e4a14358d5ee20fa7a939107f724bc16bf9f5034ad316beb997
+- [x] `Faucet Coin` Package ID: 0x4b91c8395eabc57d92dbe2d033a0ae15a7383d13adc65342d45d9155a40d4bbc
+- [x] Transfer `My Coin` hash: 4ZN79bod3ob7LGpRG2iAgBMEXwGBbVUdvuaYxpujs9xi
+- [x] `Faucet Coin` address 1 mint hash: 5srC8MMizvbL8NbZUbaXqmqtsaAUj79iQYLWwdgxgRAY
+- [x] `Faucet Coin` address 2 mint hash: mZG91rs6f6qE3ZLhQcpsfQaJJ6Sv4gmacMFsNh3ZhVu
 
 ### 03 move nft
 - [x] NFT Package ID: 0xc60652e1bbc93f8b6e8864837a3571b0170e3655b841f542eb565214e096dfb3
@@ -35,13 +35,13 @@
 ![NFT's Screenshot](images/task_3/image.png)
 
 ### 04 move game
-- [ ] Game Package ID:
-- [ ] Deposit Coin Hash:
-- [ ] Withdraw Coin Hash:
-- [ ] Play Game Hash:
+- [x] Game Package ID: 0xc115f7a8066043bc4ec0128fd03678bcddd0e6390a58c751896a28ce8eccbf34
+- [x] Deposit Coin Hash: 4vdTJLk13wrb9eyAcGf7eKCS2RefK1NsbhyVfY4C415h
+- [x] Withdraw Coin Hash: 5gragW5tNaLUrJxfsyvWJbENQQCGeNkiSawhmL9KcsEc
+- [x] Play Game Hash: EoAYKFsWad3WG6b8UrcGEGN3V3q5K7sF5BGdSwRLYYkY
 
 ### 05 move swap
-- [ ] Swap Package ID:
+- [ ] Swap Package ID: 0x0d467ffbc8f9650b042184bc761031e6609b085435c9ea59025c26a428a2e56d
 - [ ] Call Swap Coin A -> Coin B hash:
 - [ ] Call Swap Coin B -> Coin A hash:
 
