@@ -1,12 +1,10 @@
 ## Basic Information
-- Sui Wallet Address: `0xd4544077a889176646eb9c8ad37b865e45a9b97d62e6daebb71bbe78a42106fe`
-> First-time participants must complete the registration of the wallet address through the first task to have it merged. You should use this address for subsequent tasks. We will also use this address to credit the learning rewards.
+- Sui Wallet Address: `0xa26a4168569e815f4c382201d1b383f2722e7a5a3610aa4edc69d414e53dcd98`
 - Github: `hieungocnguyen`
 
 ## Personal Introduction
 - Work Experience: `1 years`
 - Tech Stack: `Javascript` `React` `Nodejs` , etc.
-> Important: Please take your personal introduction seriously.
 - Experienced in web2 development, passionate about creating useful products. With my interest in blockchain, i will add it to my skillset in my career and Move will be one of them, hope this will be an interesting journey
 - Contact: telegram `hieungocnguyen`
 
