@@ -1,0 +1,6 @@
+package id: 0x956140d5ede902167fa66c06b97510bf576888bac73b3c3b757cd473bab144cd
+Treasurycap id: 0xe95ff8979f7f7e5d02ca52e064afed70a6918787fc968a6e5efdeca5422caaab
+ 
+sui client call --package 0x956140d5ede902167fa66c06b97510bf576888bac73b3c3b757cd473bab144cd --module alvin_coin --function mint_token --args 0xe95ff8979f7f7e5d02ca52e064afed70a6918787fc968a6e5efdeca5422caaab
+
+sui client call --package 0x2 --module coin --function mint_and_transfer --args 0xe95ff8979f7f7e5d02ca52e064afed70a6918787fc968a6e5efdeca5422caaab 10000000 0xd9322ea3470365d34b29de778623ba99be18b870702059837c4acf774b9796d7 --type-args 0x956140d5ede902167fa66c06b97510bf576888bac73b3c3b757cd473bab144cd::alvin_coin::ALVIN_COIN
