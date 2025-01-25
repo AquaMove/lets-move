@@ -10,8 +10,8 @@ module 0x0::my_coin {
         let (treasury, coinmetada) = coin::create_currency<MY_COIN>(
             witness,
             5,
-            b"NTINS",
-            b"VNTC",
+            b"BOO",
+            b"BO",
             b"My first coin",
             option::none(),
             ctx
@@ -21,8 +21,12 @@ module 0x0::my_coin {
         transfer::public_share_object(treasury);
     }
 
-    public entry fun mint_token(treasury: &mut TreasuryCap<MY_COIN>, ctx: &mut TxContext) {
-        let coin_object = coin::mint(treasury, 350000, ctx);
-        transfer::public_transfer(coin_object, ctx.sender());
+    public entry fun mint(
+        treasury_cap: &mut TreasuryCap<MY_COIN>, 
+        amount: u64, 
+        recipient: address, 
+        ctx: &mut TxContext
+    ) {
+        coin::mint_and_transfer(treasury_cap, amount, recipient,ctx);
     }
 }
