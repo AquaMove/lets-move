@@ -7,7 +7,7 @@
 - Work Experience: `1 year`
 - Techtack: `Python`, `Django`, `Move`, `TypeScript`.
 > Important: I’ve worked on building APIs and backend systems for a year. Now, I’m excited to transition to Web3 and explore the power of Move in creating secure smart contracts.
-- Discord: `minhhai981`
+- Discord: `PhungQuan`
 
 ## Tasks
 
