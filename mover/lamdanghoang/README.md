@@ -45,9 +45,9 @@
 
 ### 05 move swap
 
-- [ ] Swap Package ID:
-- [ ] Call Swap Coin A -> Coin B hash:
-- [ ] Call Swap Coin B -> Coin A hash:
+- [x] Swap Package ID: 0xed7c5188a6596de87e0fbf27837acf2954c78802a3539189831274218884fd1c
+- [x] Call Swap Coin A (`Faucet Coin`) -> Coin B (`My Coin`) hash: 3eJJ35Sob4ZDB1Wz6CtPUizHZnZJSS1WsLvF7iiMACCu
+- [x] Call Swap Coin B (`My Coin`) -> Coin A (`Faucet Coin`) hash: 3jZo2txzxSDrG23Z5KBL2CALpKZ515ERWmhawv5x2JNg
 
 ### 06 dapp-kit SDK PTB
 
