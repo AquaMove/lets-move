@@ -51,4 +51,4 @@
 
 ### 06 dapp-kit SDK PTB
 
-- [ ] Save Hash:
+- [x] Save Hash: 6za77Bk8TrQPrXkewXwGKCptB6iXHDKae3WZa6FwULf8
