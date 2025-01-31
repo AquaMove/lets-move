@@ -19,17 +19,17 @@
 - [x] Package ID's Screenshot from Explorer: ![PackageID_Image](./images/task1/Package_ID.jpg)
 
 ### 02 move coin
-- [ ] `My Coin` Package ID:
-- [ ] `Faucet Coin` Package ID:
-- [ ] Transfer `My Coin` hash:
-- [ ] `Faucet Coin` address 1 mint hash:
-- [ ] `Faucet Coin` address 2 mint hash:
+- [x] `My Coin` Package ID: `0x50448a0f292bb4a35c4926293e53efebd4b9205cdb9a6d5aace7bb7d7e855841`
+- [x] `Faucet Coin` Package ID: `0x26b55a5cd1f32fb9ccdcc0b4414ca7aeebe75ff5b4d5108e56ca585a483c84dc`
+- [x] Transfer `My Coin` hash: `BouRvjwAU5mnEkcG7xaaFuWQdt5gPDcnoBnVow2mc2b6`
+- [x] `Faucet Coin` address 1 mint hash: `AkFQVxNEx9zjhpgY4TvYStWKm31xGU8C1CwThK7uS4ew`
+- [x] `Faucet Coin` address 2 mint hash: `9datFVRjwgcSojGPbjz6sP31y3SA3csvZF5iPSpwz2fW`
 
 ### 03 move nft
-- [ ] NFT Package ID:
-- [ ] NFT Object ID:
-- [ ] Transfer NFT hash:
-- [ ] NFT's Screenshot from Explorer: Link to image uploaded to `images` folder.
+- [x] NFT Package ID: `0x1975194a237ab942cdc2f9c7cb9747fd52f9a64025368f9c44fd70f53e1e8385`
+- [x] NFT Object ID: `0x2cc1b8c7dfa6e2ac8ce98e8705713dea66acf1d8c6af46874aa6b579da0f3935`
+- [x] Transfer NFT hash: `DSTyB1hgtGSDWzmvaqeUqddDZtqPmQeJB9hqu4P8ZMX1`
+- [x] NFT's Screenshot from Explorer: Link to image uploaded to `images` folder.
 
 ### 04 move game
 - [ ] Game Package ID:

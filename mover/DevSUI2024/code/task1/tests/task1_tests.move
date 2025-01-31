@@ -6,7 +6,6 @@ use sui::test_scenario::{Self, EEmptyInventory};
 
 const EWRONG_TEXT : u64 = 1;
 
-
 #[test]
 fun test_hello_move() {
     let dummy_address = @0xA1;
