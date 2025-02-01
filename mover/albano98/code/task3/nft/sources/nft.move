@@ -26,7 +26,7 @@ module 0x0::task3{
     public entry fun mint_nft(ctx: &mut TxContext) {
         transfer::transfer( Albano98NFT {
             id: object::new(ctx),
-            name: b"ThanhcongNFT".to_string(),
+            name: b"Albano98NFT".to_string(),
             img_url: url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/193555415?v=4"),
             creator: ctx.sender() 
         }, ctx.sender())
