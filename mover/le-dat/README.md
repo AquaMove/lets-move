@@ -1,5 +1,5 @@
 ## Basic Information
-- Sui Wallet Address: `0xbcc604d1927bd51e73fa12b271bce97d205e66a28558b6a9bff8d489705c841b`
+- Sui Wallet Address: `0x45888f0cbf16b40efaf04a11a8130f9991e588289d8de732688169573a6ec072`
 > First-time participants must complete the registration of the wallet address through the first task to have it merged. You should use this address for subsequent tasks. We will also use this address to credit the learning rewards.
 - Github: `le-dat`
 
@@ -32,17 +32,15 @@
 - [x] NFT's Screenshot from Explorer: Link to image uploaded to `images` folder: ![move nft](./images/nft.png)
 
 ### 04 move game
-- [x] Game Package ID: `0x01b04d4ddf4b37afdd4863173c8abee828dc7873c79f16829f401adbb32383d8`
-- [x] Deposit Coin Hash: ``
-- [x] Withdraw Coin Hash: ``
-- [x] Play Game Hash: ``
+- [x] Game Package ID: `0x6f58e8817c907e919896f572ae4b40e312c6320fff5c4e5ff37384717d75d9f6`
+- [x] Deposit Coin Hash: `BAuvsv7F13CsvJBVjAVW2rYL5z3Nxt3giPxDBE9TAtuE`
+- [x] Withdraw Coin Hash: `71KDwHtGoHVeDiDyNRzw5yQqt8YYi9K6j4Qad8TbPUeA`
+- [x] Play Game Hash: `DKkL4sBuGQCTykz38JzXh8FaivSW6RjAVhdJUVsv7Szw`
 
 ### 05 move swap
-- [x] Swap Package ID: ``
-- [x] Call Swap Coin A -> Coin B hash: ``
-- [x] Call Swap Coin B -> Coin A hash: ``
+- [x] Swap Package ID: `0x9ed28c4f65d3b8c6e0d4a56c80a6ebed76a02e0adf958e455465dfb742e9a269`
+- [x] Call Swap Coin A -> Coin B hash: `2PUJwQwNFix3JrX93eXW8aZTQsBv38DEYpEPafrAs1aW`
+- [x] Call Swap Coin B -> Coin A hash: `78bkL3dbNXUDuNhfdepQrw8SbFesYhtk7ZHqmZwjMc9u`
 
 ### 06 dapp-kit SDK PTB
 - [x] Save Hash: `3db2HNgYayBTUwzq7cX1Y91BUDoJJMFykiihktA81iVj`
-- [x] Dapp screenshot: ![](./images/dapp-kit.png)
-- [x] Dapp deployment site: [https://lets-move.vercel.app/](https://lets-move.vercel.app/)
