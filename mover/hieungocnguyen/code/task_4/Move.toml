@@ -1,0 +1,18 @@
+[package]
+name = "move_game"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+faucet_coin = { local = "../task_2/faucet_coin" }
+
+
+[addresses]
+move_game = "0x0"
+
+[dev-dependencies]
+
+
+[dev-addresses]
+

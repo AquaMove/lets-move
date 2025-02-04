@@ -1,0 +1,122 @@
+.background {
+  background: linear-gradient(135deg, rgba(168, 224, 99, 0.8), rgba(86, 171, 47, 0.8)),
+              linear-gradient(45deg, rgba(168, 224, 99, 0.6), rgba(86, 171, 47, 0.6)),
+              linear-gradient(225deg, rgba(168, 224, 99, 0.4), rgba(86, 171, 47, 0.4)),
+              linear-gradient(315deg, rgba(168, 224, 99, 0.2), rgba(86, 171, 47, 0.2));
+  background-blend-mode: overlay;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.connect-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.text-box {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+  color: black; 
+  min-width: 700px; 
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-box .top-left {
+  text-align: left;
+}
+
+.text-box .center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.buy-coffee {
+  background-color: #ffcc00;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-coffee:hover {
+  background-color: #ff9900;
+}
+
+.shape {
+  position: absolute;
+  animation: float 10s infinite ease-in-out;
+}
+
+.circle {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+.square {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 300px solid rgba(255, 255, 255, 0.2);
+}
+
+.shape1 {
+  width: 250px;
+  height: 250px;
+  top: -50px;
+  left: -50px;
+}
+
+.shape2 {
+  width: 350px;
+  height: 350px;
+  top: 20%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.shape3 {
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.shape4 {
+  width: 300px;
+  height: 300px;
+  top: 80%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}

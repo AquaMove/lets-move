@@ -1,0 +1,27 @@
+.send-sui-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.send-sui-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #0000ff;
+}
+
+.send-sui-button {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.send-sui-button:hover {
+  background-color: #ff4500;
+}
+
+.send-sui-button:active {
+  transform: translate(2px, 2px);
+}
