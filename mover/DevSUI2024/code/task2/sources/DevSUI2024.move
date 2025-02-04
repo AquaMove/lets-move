@@ -28,6 +28,11 @@ module task2::DevSUI2024 {
     public entry fun total_supply(cap: &TreasuryCap<DEVSUI2024>): u64{
         coin::total_supply(cap)
     }
+
+    #[test_only]
+    public fun init_for_testing(ctx: &mut TxContext) {
+        init(DEVSUI2024{}, ctx);
+    }
 }
 
 // Transaction digest: 4QefEWr7PDiU2eDDPiH4KezSrHFmwavgZvhsHDHVdQ7n

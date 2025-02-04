@@ -21,6 +21,14 @@ module task3::NFT {
 
         transfer::public_transfer(nft, ctx.sender());
     }
+
+    public entry fun get_name(nft: &DevSUI2024_NFT) : String {
+        nft.name
+    }
+
+    public entry fun get_description(nft: &DevSUI2024_NFT) : String {
+        nft.description
+    }
 }
 
 // Transaction digest: 3MzYd7sF18FXk8AXhuF8NPWWS6NeZTLg6K789MRRu2zb
