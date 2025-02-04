@@ -39,7 +39,7 @@
 - [x] Game Package ID: 0xa1a2269d61afe5ae66e78894246406b3679705310203d400921b12603ad3ae2f
 - [x] Deposit Coin Hash: EdiSEWAFrZ1ozvBvfzX8wiFKzgVEFxzdk9ktcLyZFGf
 - [x] Withdraw Coin Hash: 46UX15sWYrWWXXra2Kqqy2MCZ3DTVZdLcXJzNKcFYJt
-- [ ] Play Game Hash:
+- [x] Play Game Hash: yHapRERLitWjg236Y95XF4eHoNimThupQAVuVbo9x86
 
 ### 05 move swap
 
@@ -49,4 +49,4 @@
 
 ### 06 dapp-kit SDK PTB
 
-- [ ] Save Hash:
+- [x] Save Hash: 7gQDc9h7rNVdAcBMs5NCDxnNKCEqu9XtQhum4UYR6iep

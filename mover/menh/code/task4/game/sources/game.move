@@ -70,4 +70,5 @@ module 0x0::game{
     }
 
   }
-
+//sui client call --package 0xa1a2269d61afe5ae66e78894246406b3679705310203d400921b12603ad3ae2f --module game --function play --args 0xa57d1fd81940b425c7679119c81f3cbe2d405dba62ed3d5882dcae5c
+c7e92fac 0x8 false 0x61a5baa559bfd7a50aeaf88822246f76f86bd21ecd8ddf8ad00056dab04ba6e4
