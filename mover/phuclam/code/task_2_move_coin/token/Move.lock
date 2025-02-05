@@ -31,4 +31,5 @@ flavor = "sui"
 chain-id = "4c78adac"
 original-published-id = "0x94f0b254b9114a66f37f48c11707ad5607973a4e8d0cdca719ddf9b0d03e075f"
 latest-published-id = "0x94f0b254b9114a66f37f48c11707ad5607973a4e8d0cdca719ddf9b0d03e075f"
+
 published-version = "1"

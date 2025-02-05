@@ -26,3 +26,8 @@ yarn-error.log*
 sui.log.*
 .history
 *.Identifier
+mover/TranPhong/code/task5
+mover/TranPhong/code/task3
+mover/TranPhong/code/task1
+mover/TranPhong/code/task4
+.codegpt

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@simplewebauthn/types": "^12.0.0"
+  }
+}
