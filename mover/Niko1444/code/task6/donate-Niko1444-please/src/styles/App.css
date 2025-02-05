@@ -1,0 +1,85 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #8b4513;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.app-title {
+  font-size: 24px;
+  margin: 0;
+  color: #ffd700;
+  text-shadow: 2px 2px #000000;
+}
+
+.game-boy {
+  background-color: #8b4513;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.screen {
+  background-color: #9bbc0f;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.d-pad {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.d-pad-button {
+  width: 30px;
+  height: 30px;
+  background-color: #4a4a4a;
+  position: absolute;
+}
+
+.d-pad-button.up {
+  top: 0;
+  left: 35px;
+}
+.d-pad-button.right {
+  top: 35px;
+  right: 0;
+}
+.d-pad-button.down {
+  bottom: 0;
+  left: 35px;
+}
+.d-pad-button.left {
+  top: 35px;
+  left: 0;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.action-button {
+  width: 40px;
+  height: 40px;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+
+.digest-child {
+  font-size: 8px;
+}
