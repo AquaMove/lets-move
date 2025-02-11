@@ -1,0 +1,2 @@
+====test function
+sui client call --function deposit --module alvin_game --package 0x4d0c262d9ebe5fa24c68256e647a54501472a720cae4496cc71bb92fa4ec579c --args 0x4d0c262d9ebe5fa24c68256e647a54501472a720cae4496cc71bb92fa4ec579c 0x2::sui::SUI 5 --gas-budget 10000000
