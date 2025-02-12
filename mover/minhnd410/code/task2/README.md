@@ -1,0 +1,7 @@
+```bash
+# Mint coin
+sui client call --function mint --module minhnd410 --package 0xe59be9ecc6460b70eac6b8c207ae2d7453901c9b017e3ef88a767548450d6db0 --args 0xb36752efb2c95063557a924eb89385d29ea2adc08a69fd68723556a7637f423f 1000000 0xf6429b3bfe3fa36cf6a56695f2fe9ad071dc03ed47d5178bf7d740711da1c442
+
+sui client call --function mint --module minhnd410_Faucet --package 0xe47b867c5383eb363abdb5d7762f1b64641c37e9b24c295fbba49f56e719671f --args 0x126bdf130cc2c2aafbc1bb98de6c2c406d19421b780f751b567d5003cd4dedd8 1000000 0xa1646edd2b1acb5a3da109896d7e2aaee0cc9ac0ee3882c40f62c71bf1da18e2
+
+```
