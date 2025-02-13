@@ -32,10 +32,10 @@
 - [x] NFT's Screenshot from Explorer: ![](images/AlvinNFT.png)
 
 ### 04 move game
-- [ ] Game Package ID:
-- [ ] Deposit Coin Hash:
-- [ ] Withdraw Coin Hash:
-- [ ] Play Game Hash:
+- [x] Game Package ID:0x4d0c262d9ebe5fa24c68256e647a54501472a720cae4496cc71bb92fa4ec579c
+- [x] Deposit Coin Hash:https://suiscan.xyz/devnet/tx/XawNhfQphkTNzpvGiivNJCkfVBK3bqrrN5ZEWb35d3J
+- [x] Withdraw Coin Hash:4wuP1HMwB39gGebiyHcE3yizmFYSoL8v12xnaQEp5dkD
+- [x] Play Game Hash:5DvPjTwpTTADk1PMvYa3ua431t7bBUwV15QLsiLhk2vq
 
 ### 05 move swap
 - [ ] Swap Package ID:

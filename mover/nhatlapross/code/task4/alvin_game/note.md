@@ -1,2 +1,6 @@
-====test function
-sui client call --function deposit --module alvin_game --package 0x4d0c262d9ebe5fa24c68256e647a54501472a720cae4496cc71bb92fa4ec579c --args 0x4d0c262d9ebe5fa24c68256e647a54501472a720cae4496cc71bb92fa4ec579c 0x2::sui::SUI 5 --gas-budget 10000000
+sui client call --package 0x4d0c262d9ebe5fa24c68256e647a54501472a720cae4496cc71bb92fa4ec579c --module alvin_game --function deposit --args 0x5e5eab7c50c66daa60ecadaa628f3253946868e0f81045f12e1d23b9ac1d7410 0xe8658844c536da12aec500c713ea2a553535c028c27ae14bd057609220748be2 1000000000 --gas-budget 200000000
+
+sui client call --package 0x4d0c262d9ebe5fa24c68256e647a54501472a720cae4496cc71bb92fa4ec579c --module alvin_game --function withdraw --args 0x5e5eab7c50c66daa60ecadaa628f3253946868e0f81045f12e1d23b9ac1d7410 0x9ce2f1532b2f3aca4c819f50515ee94218e44acbdcbd8779416dfe56a501acf0 500000000 --gas-budget 200000000
+
+
+sui client call --package 0x4d0c262d9ebe5fa24c68256e647a54501472a720cae4496cc71bb92fa4ec579c --module alvin_game --function play --args 0x5e5eab7c50c66daa60ecadaa628f3253946868e0f81045f12e1d23b9ac1d7410 0x8 true 0xe8658844c536da12aec500c713ea2a553535c028c27ae14bd057609220748be2 --gas-budget 200000000
