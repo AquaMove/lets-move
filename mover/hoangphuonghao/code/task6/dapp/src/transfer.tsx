@@ -1,0 +1,33 @@
+import { useSignAndExecuteTransaction, useCurrentAccount } from '@mysten/dapp-kit';
+import { Transaction } from '@mysten/sui/transactions';
+import { useState } from 'react';
+
+export function SendSui() {
+    const { mutateAsync: signAndExecuteTransactionBlock } = useSignAndExecuteTransaction();
+    const [Digest, SetDigest] = useState('');
+
+    function sendMessage() {
+        const txb = new Transaction();
+
+        const coin = txb.splitCoins(txb.gas, [100]);
+        txb.transferObjects([coin], '0xece8e90723b136ab600b21fc54c93e9d064b4dfb6c39a3eb32cbf0f10bffe389');
+
+
+
+        signAndExecuteTransactionBlock({
+            transaction: txb,
+        }).then(async (result) => {
+            alert('Sui sent successfully');
+            SetDigest(result.digest);
+        });
+    }
+
+    return (
+        <div>{
+            <div>
+                <button onClick={() => sendMessage()}>Send me Sui!</button>
+                <div>Digest: {Digest}</div>
+            </div>
+        }</div>
+    );
+}
