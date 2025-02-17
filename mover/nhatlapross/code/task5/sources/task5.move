@@ -1,12 +1,12 @@
 module 0x0::task5 {
-    use task2::faucet_coin::FAUCET_COIN;
-    use task2::alvin_coin::ALVIN_COIN;
+    use faucet_coin::faucet_coin::FAUCET_COIN;
+    use alvin_coin::alvin_coin::ALVIN_COIN;
     use sui::balance::{Self, Balance};
     use sui::coin::{Self, Coin};
 
     public struct Pool has key {
         id: UID,
-        my_coin: balance<ALVIN_COIN>,
+        my_coin: Balance<ALVIN_COIN>,
         faucet_coin: Balance<FAUCET_COIN>
     }
 
@@ -14,7 +14,7 @@ module 0x0::task5 {
         let pool = Pool{
             id: object::new(ctx),
             my_coin: balance::zero<ALVIN_COIN>(),
-            faucet_coin: balance::zero<ALVIN_COIN>()
+            faucet_coin: balance::zero<FAUCET_COIN>()
         };
 
         transfer::share_object(pool);
