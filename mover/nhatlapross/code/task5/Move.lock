@@ -37,3 +37,16 @@ source = { local = "../task2/faucet_coin" }
 dependencies = [
   { id = "Sui", name = "Sui" },
 ]
+
+[move.toolchain-version]
+compiler-version = "1.39.3"
+edition = "2024.beta"
+flavor = "sui"
+
+[env]
+
+[env.devnet]
+chain-id = "d4b9ca36"
+original-published-id = "0x296baecab1fa26bd40d721c724d65173c878af7e4e543da448a3bc75cf5d3191"
+latest-published-id = "0x296baecab1fa26bd40d721c724d65173c878af7e4e543da448a3bc75cf5d3191"
+published-version = "1"
