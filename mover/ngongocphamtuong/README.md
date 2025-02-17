@@ -7,7 +7,7 @@
 - Work Experience: `0 years`
 - Tech Stack: `C#`, `Javascript`, `Python`, `Move`
 > Introduction: Working as a research assistant at VNU allowed me to explore blockchain’s theoretical aspects. I’m now applying that knowledge practically with Move.
-- Discord: ``
+- Discord: `Phạm Tường`
 
 ## Tasks
 
