@@ -57,4 +57,8 @@
 
 ### 06 dapp-kit SDK PTB
 
-- [ ] Save Hash:
+- [x] Save Hash: [3JvpQnH9Wj1HFbRH4vQFDxfWFjYS8z3pbB1eyrjf4jgP](https://suiscan.xyz/testnet/tx/3JvpQnH9Wj1HFbRH4vQFDxfWFjYS8z3pbB1eyrjf4jgP)
+- Screenshot: Show Digest ![link](./images/task6/1.png)
+- Contract address: [0xafe2e751c4d5f6c4706ec4e210eb3ce7af2e67c494152219698cb53cd252f533](https://suiscan.xyz/testnet/object/0xafe2e751c4d5f6c4706ec4e210eb3ce7af2e67c494152219698cb53cd252f533/contracts)
+- Screenshot: Show interaction with contract ![link](./images/task6/2.png)
+
