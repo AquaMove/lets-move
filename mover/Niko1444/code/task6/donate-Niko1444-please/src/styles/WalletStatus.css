@@ -1,0 +1,32 @@
+.wallet-status {
+  margin-bottom: 20px;
+}
+
+.wallet-status-title {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #0000ff;
+}
+
+.wallet-info {
+  background-color: #306230;
+  padding: 10px;
+}
+
+.address {
+  margin: 0;
+  color: #ffd700;
+}
+
+.address-value {
+  margin: 5px 0 0 0;
+  word-break: break-all;
+}
+
+.wallet-not-connected {
+  background-color: #8b0000;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}

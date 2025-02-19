@@ -29,3 +29,8 @@ sui.log.*
 
 */build
 *.Move.lock
+mover/TranPhong/code/task5
+mover/TranPhong/code/task3
+mover/TranPhong/code/task1
+mover/TranPhong/code/task4
+.codegpt
