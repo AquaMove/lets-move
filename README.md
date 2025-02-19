@@ -23,5 +23,3 @@ Result:
 - **[Sui Official Documentation](https://docs.sui.io/)** - Official documentation for Sui development.
 - **[Let's Move on Sui](https://letsmovesui.com/)** - An interactive guide to learn Move on Sui.
 - **[Awesome Sui](https://github.com/sui-foundation/awesome-sui)** - A curated list of awesome developer tools and infrastructure projects within the Sui ecosystem.
-
-

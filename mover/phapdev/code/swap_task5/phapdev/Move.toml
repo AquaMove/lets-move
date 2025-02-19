@@ -1,0 +1,20 @@
+[package]
+name = "phapdev"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+# license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
+# authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+my_coin = { local = "../../move_coin-task_2/my_coin" }
+
+faucet_coin = { local = "../../move_coin-task_2/faucet_coin" }
+
+
+[addresses]
+phapdev = "0x0"
+
+[dev-dependencies]
+
+[dev-addresses]

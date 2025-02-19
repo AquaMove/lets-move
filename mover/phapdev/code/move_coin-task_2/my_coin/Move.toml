@@ -1,0 +1,15 @@
+[package]
+name = "my_coin"
+edition = "2024.beta" 
+authors = ["phapdev (luongphap1810@gmail.com)"]      
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+
+[addresses]
+my_coin = "0x0"
+
+[dev-dependencies]
+
+[dev-addresses]

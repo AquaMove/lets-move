@@ -26,6 +26,9 @@ yarn-error.log*
 sui.log.*
 .history
 *.Identifier
+
+*/build
+*.Move.lock
 mover/TranPhong/code/task5
 mover/TranPhong/code/task3
 mover/TranPhong/code/task1

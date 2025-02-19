@@ -1,0 +1,17 @@
+[package]
+name = "faucet_coin"
+edition = "2024.beta" 
+authors = ["phapdev (luongphap1810@gmail.com)"]
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+faucet_coin = "0x0"
+sui =  "0x2"
+
+[dev-dependencies]
+
+
+[dev-addresses]
+
