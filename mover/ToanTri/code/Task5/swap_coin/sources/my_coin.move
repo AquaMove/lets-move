@@ -22,7 +22,7 @@ module 0x0::my_coin {
         transfer::public_transfer(treasury_cap, ctx.sender());
     }
 
-    public entry fun mint(treasury: &mut TreasuryCap<MY_COIN>, amount: u64, recipient: address, ctx: &mut TxContext) {
+    public entry fun mint(treasury_cap: &mut TreasuryCap<MY_COIN>, amount: u64, recipient: address, ctx: &mut TxContext) {
         coin::mint_and_transfer(treasury_cap, amount, recipient, ctx);
     }
 }

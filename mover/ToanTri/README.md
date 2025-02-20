@@ -38,16 +38,16 @@
 
 ### 04 move game
 
-- [ ] Game Package ID:
-- [ ] Deposit Coin Hash:
-- [ ] Withdraw Coin Hash:
+- [x] Game Package ID: 0xa4ee9ffe0d2a289fd92b5d0e5383697624641c26e82ddd75f2710effb5cad78b
+- [x] Deposit Coin Hash: 7d1JuXV4N7PxtZA8LmvPwBGPTUzfeXauKMjJ5fxHn9bf
+- [x] Withdraw Coin Hash: JCf1F2DeRou6a9MhQWPGVNzv2rcPGXfUUNVR946wdQ3X
 - [ ] Play Game Hash:
 
 ### 05 move swap
 
-- [ ] Swap Package ID:
-- [ ] Call Swap Coin A -> Coin B hash:
-- [ ] Call Swap Coin B -> Coin A hash:
+- [x] Swap Package ID: 0x6756b99f8d38f16fd53694dcc480876428365696cd4d8af5459ad4ee1610668b
+- [x] Call Swap Coin A -> Coin B hash: 7raAqf5YoPgZDU1hWSi2rrpbrp9Y1siBish5UqWg1wFv
+- [x] Call Swap Coin B -> Coin A hash: 7HQLm96qAJRN7c1L5BVVcKyaxbpFoMVHZRVqjry1wB6Q
 
 ### 06 dapp-kit SDK PTB
 
