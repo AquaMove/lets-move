@@ -1,4 +1,4 @@
-module hello_move::hello {
+module 0x0::hello {
     use std::string::String;
 
     public struct Hello_shogun has key {
