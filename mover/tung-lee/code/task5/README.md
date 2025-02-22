@@ -1,0 +1,29 @@
+export treasury_my_coin=0xc3d2eb46c39f0d892aeffe029afb4f9510d70083cb733dc6e8c7bfc3023ec144
+
+export treasury_faucet_coin=0x50852c9cab007c04732a4a09e400606b491f932dd2973fb11ca4a4a5644361cd
+
+export pool=0xae8cf613df6bc7feccc14fae7c03bb010a818eb7c404a14dbf326b01f1addae7
+
+export package=0x88f44d06581131d76197460daa53855095191a5ec919f61094ee8606479a9d4c
+
+sui client call --package $package --module my_coin --function mint_token --args $treasury_my_coin
+
+my_coin_1=0x485783b9ccbd3b2ff4c5dfadd07d1fb513b65423b8df6afa1997c94e640d523a
+
+my_coin_2=0x53f8cd1d2dd9af1720d761afb9f4075a67f14307bb0185becef05aa4d3506bb5
+
+sui client call --package $package --module faucet_coin --function mint_token --args $treasury_faucet_coin
+
+faucet_coin_1=0x4e994edcc72f606f69492250f9ffb8d31311a394793fc7ac08d5680c783d7621
+
+faucet_coin_2=0x974b61d4a62fb7ec0686ec4a4b338c8f3132ff36bd5ac3b1d6d234531d9409a4
+
+sui client call --package $package --module task5 --function add_money_to_pool --args $pool 0x485783b9ccbd3b2ff4c5dfadd07d1fb513b65423b8df6afa1997c94e640d523a 0x4e994edcc72f606f69492250f9ffb8d31311a394793fc7ac08d5680c783d7621
+
+sui client call --package $package --module task5 --function swap_my_coin_to_faucet_coin  --args $pool 0x53f8cd1d2dd9af1720d761afb9f4075a67f14307bb0185becef05aa4d3506bb5
+
+Digest: r8y2AGjJnXy5Jc6qSxdMyroySKDE29Gsxyr6JqcbKwA
+
+sui client call --package $package --module task5 --function swap_faucet_coin_to_my_coin  --args $pool 0x974b61d4a62fb7ec0686ec4a4b338c8f3132ff36bd5ac3b1d6d234531d9409a4
+
+Digest: 7kf4oVmmrNLwxdXrYrbH2U6z2qnVJh1kXc1M5gWoaKeM
